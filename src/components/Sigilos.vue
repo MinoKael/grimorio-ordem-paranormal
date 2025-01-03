@@ -68,7 +68,7 @@ const dialogSinais = ref(false);
                                     class="sigilos"
                                     src="../assets/Aglomerado_de_Traduções.webp"
                                 >
-                                    <DialogSimbolo :src="'../assets/Aglomerado_de_Traduções.webp'" :alt="'Aglomerado de Traduções'" />
+                                    <DialogSimbolo :src="'../assets/Aglomerado_de_Traduções.webp'" :alt="'Aglomerado de Traduções'" :fit="true" />
                                 </v-img>
                             </v-row>
                         </v-col>
