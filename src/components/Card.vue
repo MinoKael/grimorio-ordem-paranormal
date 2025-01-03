@@ -42,11 +42,11 @@ let ritual = Object.assign({}, rituals[ritualIndex]);
                 <strong>Alcance: </strong> {{ ritual.alcance }};&nbsp
             </span>
             <span v-if="ritual.alvo"
-                ><strong>Alvo: </strong> {{ ritual.alvo }};&nbsp</span
-            >
+                ><strong>Alvo: </strong> {{ ritual.alvo }};&nbsp
+            </span>
             <span v-if="ritual.area"
-                ><strong>Área: </strong> {{ ritual.area }};&nbsp</span
-            >
+                ><strong>Área: </strong> {{ ritual.area }};&nbsp
+            </span>
             <span v-if="ritual.efeito">
                 <strong>Efeito: </strong> {{ ritual.efeito }};&nbsp
             </span>

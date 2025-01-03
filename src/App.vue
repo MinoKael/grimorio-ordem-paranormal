@@ -8,23 +8,20 @@ const tab = ref(1);
 </script>
 <template>
     <v-app>
-        <v-tabs
-            v-model="tab"
-            align-tabs="center"
-            color="#ebebea"
-            >
-            <!-- color="deep-purple-accent-1" -->
+        <v-tabs v-model="tab" align-tabs="center" color="#ebebea">
             <v-tab :value="1">Grimório</v-tab>
-            <v-tab :value="2">Sígilos</v-tab>
+            <v-tab :value="2">Sigilos</v-tab>
         </v-tabs>
-        <v-tabs-window v-model="tab">
-            <v-tabs-window-item :value="1">
-                <Rituais></Rituais>
-            </v-tabs-window-item>
-            <v-tabs-window-item :value="2">
-                <Sigilos></Sigilos>
-            </v-tabs-window-item>
-        </v-tabs-window>
+        <v-main>
+            <v-tabs-window v-model="tab">
+                <v-tabs-window-item :value="1">
+                    <Rituais></Rituais>
+                </v-tabs-window-item>
+                <v-tabs-window-item :value="2">
+                    <Sigilos></Sigilos>
+                </v-tabs-window-item>
+            </v-tabs-window>
+        </v-main>
         <Footer></Footer>
     </v-app>
 </template>

@@ -90,16 +90,16 @@ watch(dialog, () => {
                             </span>
                         </v-card-text>
                     </v-col>
-                    <v-col no-gutters cols="5">
+                    <v-col no-gutters cols="5" class="d-flex align-center justify-center">
                         <div class="d-flex justify-center align-center pr-3">
                             <img :src="`/src/assets/${ritual.simbolo}`" :alt="`Símbolo ${ritual.nome}`" class="simbolo" :class="{ 'image-error': imageNotLoaded }" @error="imageNotLoaded = true" @click="() => {if(!imageNotLoaded) dialogSimbolo = !dialogSimbolo}" />
                         </div>
                         <v-dialog v-model="dialogSimbolo" width="50%" height="100%" scrim="black" opacity="1">
-                            <v-btn text icon @click="dialogSimbolo = !dialogSimbolo" class="align-self-end">
+                            <v-btn flat icon @click="dialogSimbolo = !dialogSimbolo" class="align-self-end">
                                 <v-icon>mdi-close</v-icon>
                             </v-btn>
                             <div class="dialog-content">
-                                <img :src="`/src/assets/${ritual.simbolo}`" :alt="`Símbolo ${ritual.nome}`" style="margin: 0;" class="centered-img" />
+                                <img :src="`/src/assets/${ritual.simbolo}`" :alt="`Símbolo ${ritual.nome}`" style="margin: 0;" />
                             </div>
                         </v-dialog>
                     </v-col>
@@ -142,9 +142,8 @@ watch(dialog, () => {
 }
 .simbolo:hover {
     filter: drop-shadow(0 0 0.5em #cacaca);
-    cursor: pointer;
+    cursor: zoom-in;
 }
-
 .dialog-content {
     display: flex;
     justify-content: center;
@@ -152,7 +151,6 @@ watch(dialog, () => {
     height: 100%;
     overflow: hidden;
 }
-
 .dialog-content img {
     max-width: 100%;
     max-height: 100%;
@@ -167,5 +165,4 @@ img {
     cursor: none;
     pointer-events: none;
 }
-
 </style>
