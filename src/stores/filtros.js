@@ -82,7 +82,8 @@ export const useFiltrosStore = defineStore('filtros', () => {
         Resistência: ['Fortitude', 'Reflexos', 'Vontade', 'Outros'],
         Referência: [
             'Ordem Paranormal RPG',
-            'OPRPG - Sobrevivendo ao Horror'
+            'OPRPG - Sobrevivendo ao Horror',
+            'Dragão Brasil',
         ]
     });
 

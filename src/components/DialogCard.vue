@@ -24,7 +24,7 @@ function prevRitual() {
     }
 }
 watch(dialog, () => {
-    if(!dialog.value) {
+    if(dialog.value) {
         currentIndex.value = ritualIndex;
         ritual = Object.assign({}, rituals[ritualIndex]);
     }

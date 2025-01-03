@@ -2063,5 +2063,41 @@
         "aprimoramentos": [],
         "simbolo": "Milagre Ionizante.webp",
         "referencia": "OPRPG - Sobrevivendo ao Horror"
+    },
+    {
+        "id": 102,
+        "nome": "Leitura Psíquica",
+        "elemento": "Conhecimento",
+        "circulo": 2,
+        "custo": 3,
+        "execucao": "movimento",
+        "alcance": "curto",
+        "alvo": "1 pessoa",
+        "area": null,
+        "efeito": null,
+        "duracao": "instantânea",
+        "resistencia": null,
+        "texto": "Invadindo os pensamentos de uma pessoa, você pode prever sua próxima ação. Ao utilizar essa habilidade em seu alvo, o mestre tem que declarar qual vai ser a próxima ação dele antes de seu turno. Essa ação pode mudar caso ocorra algo impactante, a critério do mestre, antes de seu turno.",
+        "aprimoramentos": [],
+        "simbolo": "Leitura Psíquica.webp",
+        "referencia": "Dragão Brasil 203"
+    },
+    {
+        "id": 103,
+        "nome": "Esferas de Sangue",
+        "elemento": "Sangue",
+        "circulo": 3,
+        "custo": 6,
+        "execucao": "padrão",
+        "alcance": "toque",
+        "alvo": "1 pessoa",
+        "area": null,
+        "efeito": null,
+        "duracao": "veja texto",
+        "resistencia": "Vontade anula",
+        "texto": "Você usa de sua conexão com o Sangue para capturar parte da essência vital do alvo na forma de esferas sanguinolentas. Enquanto você estiver com as esferas, o alvo precisa ser prestativo a você. Se ele se recusar, você pode deixá-lo esmorecido, debilitado e lento como uma ação livre ou reação. Se o alvo encostar nas esferas, elas voltam para ele, o ritual se encerra e ele fica imune ao ritual. As esferas ocupam 1 espaço e não podem ser separadas.",
+        "aprimoramentos": [],
+        "simbolo": "Esferas de Sangue.webp",
+        "referencia": "Dragão Brasil 209"
     }
 ]

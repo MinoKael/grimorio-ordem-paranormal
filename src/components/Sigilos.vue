@@ -11,7 +11,7 @@ const dialogSinais = ref(false);
 <template>
     <v-container>
         <v-responsive class="text-center fill-height">
-            <v-tabs v-model="tab" align-tabs="center" color="#b78521">
+            <v-tabs v-model="tab" align-tabs="center" :color="tab == 1 ? '#b78521' : '#07C88B'">
                 <v-tab :value="1">Sigilos do Conhecimento</v-tab>
                 <v-tab :value="2">Sinais do Estrangeiro</v-tab>
             </v-tabs>
