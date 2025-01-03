@@ -18,7 +18,7 @@ const dialogSinais = ref(false);
             <v-tabs-window v-model="tab">
                 <v-tabs-window-item :value="1">
                     <v-row no-gutters>
-                        <v-col cols="4" align="center" justify="center" class="pr-2">
+                        <v-col cols="4" align="center" justify="center">
                             <v-row no-gutters class="d-flex flex-column" style="width: 100%;">
                                 <v-card-title>Sigilos</v-card-title>
                                 <v-img
@@ -32,15 +32,17 @@ const dialogSinais = ref(false);
                                 </v-img>
                             </v-row>
                         </v-col>
-                        <v-col cols="8" class="d-flex flex-column align-center justify-center pl-2">
-                            <v-row no-gutters class="flex-column mb-4" style="width: 100%;">
-                                <v-card-title>Texto</v-card-title>
-                                <v-textarea v-model="textarea" variant="outlined" auto-grow shaped row-height="25" rows="4" hide-details clearable></v-textarea>
-                            </v-row>
-                            <v-row no-gutters class="flex-column" style="width: 100%;">
-                                <v-card-title>Tradução</v-card-title>
-                                <v-textarea v-model="textarea" variant="outlined" class="textarea-sigilos" auto-grow shaped row-height="25" rows="4" hide-details clearable></v-textarea>
-                            </v-row>
+                        <v-col cols="8" class="pl-4">
+                            <div style="width: 100%;">
+                                <v-row no-gutters class="flex-column mb-4" style="width: 100%;">
+                                    <v-card-title>Texto</v-card-title>
+                                    <v-textarea v-model="textarea" variant="outlined" auto-grow shaped row-height="25" rows="4" hide-details clearable></v-textarea>
+                                </v-row>
+                                <v-row no-gutters class="flex-column" style="width: 100%;">
+                                    <v-card-title>Tradução</v-card-title>
+                                    <v-textarea v-model="textarea" variant="outlined" class="textarea-sigilos" auto-grow shaped row-height="25" rows="4" hide-details clearable></v-textarea>
+                                </v-row>
+                            </div>
                         </v-col>
                     </v-row>
                 </v-tabs-window-item>
@@ -72,7 +74,7 @@ const dialogSinais = ref(false);
                                 </v-img>
                             </v-row>
                         </v-col>
-                        <v-col cols="8">
+                        <v-col cols="8" class="pl-4">
                             <div style="width: 100%;">
                                 <v-row no-gutters class="flex-column mb-4" style="width: 100%;">
                                     <v-card-title>Texto</v-card-title>
