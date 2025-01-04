@@ -6,11 +6,9 @@ import { getImageUrl } from '../plugins/global.js';
 const textarea = ref('');
 const textareaSinais = ref('');
 const tab = ref(1);
-const dialogSigilos = ref(false);
-const dialogSinais = ref(false);
 const imageSigilo = getImageUrl('Sigilos.webp');
 const imageSinais = getImageUrl('Sinais do Estrangeiro.webp');
-const imageTraducao = getImageUrl('Aglomerado_de_Traduções.webp');
+const imageTraducao = getImageUrl('Aglomerado de Traducoes.webp');
 </script>
 <template>
     <v-container>
@@ -30,9 +28,8 @@ const imageTraducao = getImageUrl('Aglomerado_de_Traduções.webp');
                                     aspect-ratio="4/3"
                                     :src="imageSigilo"
                                     class="sigilos"
-                                    @click="dialogSigilos = !dialogSigilos"
                                 >
-                                    <DialogSimbolo :src="imageSigilo" :alt="'Sigilos de Conhecimento'" magnify />
+                                    <DialogSimbolo :src="imageSigilo" :alt="'Sigilos de Conhecimento'" />
                                 </v-img>
                             </v-row>
                         </v-col>
@@ -61,9 +58,8 @@ const imageTraducao = getImageUrl('Aglomerado_de_Traduções.webp');
                                     aspect-ratio="4/3"
                                     class="sigilos"
                                     :src="imageSinais"
-                                    @click="dialogSinais = !dialogSinais"
                                 >
-                                    <DialogSimbolo :src="imageSinais" :alt="'Sinais do Estrangeiro'" magnify />
+                                    <DialogSimbolo :src="imageSinais" :alt="'Sinais do Estrangeiro'" />
                                 </v-img>
                             </v-row>
                             <v-row no-gutters class="d-flex flex-column" style="width: 100%;">
@@ -74,7 +70,7 @@ const imageTraducao = getImageUrl('Aglomerado_de_Traduções.webp');
                                     class="sigilos"
                                     :src="imageTraducao"
                                 >
-                                    <DialogSimbolo :src="imageTraducao" :alt="'Aglomerado de Traduções'" :fit="true" magnify />
+                                    <DialogSimbolo :src="imageTraducao" :alt="'Aglomerado de Traduções'" />
                                 </v-img>
                             </v-row>
                         </v-col>

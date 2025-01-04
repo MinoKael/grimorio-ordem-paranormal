@@ -12,7 +12,9 @@ function elementoCor(elemento) {
             return "#ebebea"
     }
 }
+const isProduction = process.env.NODE_ENV === 'production';
 function getImageUrl(image) {
-    return `/assets/${image}`;
+    const path = isProduction ? `/assets/${image}` : `/grimorio-ordem-paranormal/assets/${image}`;
+    return path;
 }
 export { elementoCor, getImageUrl }

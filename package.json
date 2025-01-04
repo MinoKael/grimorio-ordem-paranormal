@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@websitebeaver/vue-magnifier": "^1.1.0",
     "pinia": "^2.3.0",
     "vue": "^3.5.13",
     "vuetify": "^3.7.6",
