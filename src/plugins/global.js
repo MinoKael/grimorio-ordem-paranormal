@@ -13,6 +13,6 @@ function elementoCor(elemento) {
     }
 }
 function getImageUrl(image) {
-    return new URL(`/assets/${image}`, import.meta.url).href;
+    return `/assets/${image}`;
 }
 export { elementoCor, getImageUrl }
