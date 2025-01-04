@@ -19,6 +19,7 @@ export default createVuetify({
                     surface: '#121212', // Dark Gray
                     primary: '#2B2343', // Dark Purple
                     secondary: '#5CBBF6', // Light Sky Blue
+                    tormentaText: '#CE2A28', // Red Tormenta
                 },
             },
         },
