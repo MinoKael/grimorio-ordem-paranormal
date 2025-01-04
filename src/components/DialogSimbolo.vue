@@ -9,8 +9,8 @@ const { src, alt, fit, magnify } = defineProps({
 const dialog = ref(false);
 </script>
 <template>
-    <v-dialog v-model="dialog" width="1000" height="100%" scrim="black" opacity="1" activator="parent">
-        <v-btn flat icon @click="dialog = !dialog" class="align-self-end">
+    <v-dialog v-model="dialog" height="100%" scrim="black" opacity="1" activator="parent">
+        <v-btn flat icon @click="dialog = !dialog" class="align-self-center">
             <v-icon>mdi-close</v-icon>
         </v-btn>
         <div class="image-container">
@@ -20,12 +20,12 @@ const dialog = ref(false);
 </template>
 <style scoped>
 .image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 :deep(.image-container img) {   
