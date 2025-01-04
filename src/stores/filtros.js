@@ -50,6 +50,7 @@ export const useFiltrosStore = defineStore('filtros', () => {
             'Livre',
             'Reação',
             'Padrão',
+            'Movimento',
             'Completa',
             'Outros'
         ],
