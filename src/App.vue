@@ -9,7 +9,7 @@ const tab = ref(1);
 <template>
     <v-app>
         <v-tabs v-model="tab" align-tabs="center" color="#ebebea">
-            <v-tab :value="1">Grimório</v-tab>
+            <v-tab :value="1">Rituais</v-tab>
             <v-tab :value="2">Sigilos</v-tab>
         </v-tabs>
         <v-main>
