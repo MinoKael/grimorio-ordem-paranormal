@@ -1,19 +1,22 @@
 <script setup>
-import { ref, watch } from 'vue';
-import { elementoCor } from '../plugins/global.js';
+import { ref, watch, computed } from 'vue';
+import { elementoCor, getImageUrl } from '../plugins/global.js';
+import DialogSimbolo from './DialogSimbolo.vue';
+
 const dialog = ref(false);
-const dialogSimbolo = ref(false);
 const imageNotLoaded = ref(false);
 const { ritualIndex, rituals } = defineProps(['ritualIndex', 'rituals']);
 
 let ritual = Object.assign({}, rituals[ritualIndex]);
 let currentIndex = ref(ritualIndex);
+let imageUrl = getImageUrl(ritual.simbolo);
 
 function nextRitual() {
     if (currentIndex.value < rituals.length - 1) {
         currentIndex.value++;
         imageNotLoaded.value = false;
         ritual = rituals[currentIndex.value];
+        imageUrl = getImageUrl(ritual.simbolo);
     }
 }
 function prevRitual() {
@@ -21,12 +24,14 @@ function prevRitual() {
         currentIndex.value--;
         imageNotLoaded.value = false;
         ritual = rituals[currentIndex.value];
+        imageUrl = getImageUrl(ritual.simbolo);
     }
 }
 watch(dialog, () => {
     if(dialog.value) {
         currentIndex.value = ritualIndex;
         ritual = Object.assign({}, rituals[ritualIndex]);
+        imageUrl = getImageUrl(ritual.simbolo);
     }
 });
 </script>
@@ -38,7 +43,7 @@ watch(dialog, () => {
         transition="dialog-bottom-transition"
         activator="parent"
         scrim="black"
-        >
+    >
         <div class="d-flex flex-row align-center justify-center">
             <v-btn icon @click="prevRitual" :disabled="currentIndex === 0">
                 <v-icon>mdi-arrow-left</v-icon>
@@ -92,16 +97,10 @@ watch(dialog, () => {
                     </v-col>
                     <v-col no-gutters cols="5" class="d-flex align-center justify-center">
                         <div class="d-flex justify-center align-center pr-3">
-                            <img :src="`/src/assets/${ritual.simbolo}`" :alt="`Símbolo ${ritual.nome}`" class="simbolo" :class="{ 'image-error': imageNotLoaded }" @error="imageNotLoaded = true" @click="() => {if(!imageNotLoaded) dialogSimbolo = !dialogSimbolo}" />
+                            <img height="100%" :src="imageUrl" :alt="`Símbolo ${ritual.nome}`" class="simbolo" :class="{ 'image-error': imageNotLoaded }" @error="imageNotLoaded = true">
+                                <DialogSimbolo v-if="!imageNotLoaded" :src="imageUrl" :alt="`Símbolo ${ritual.nome}`" />
+                            </img>
                         </div>
-                        <v-dialog v-model="dialogSimbolo" width="50%" height="100%" scrim="black" opacity="1">
-                            <v-btn flat icon @click="dialogSimbolo = !dialogSimbolo" class="align-self-end">
-                                <v-icon>mdi-close</v-icon>
-                            </v-btn>
-                            <div class="dialog-content">
-                                <img :src="`/src/assets/${ritual.simbolo}`" :alt="`Símbolo ${ritual.nome}`" style="margin: 0;" />
-                            </div>
-                        </v-dialog>
                     </v-col>
                 </v-row>
                 <v-card-text class="pt-0">

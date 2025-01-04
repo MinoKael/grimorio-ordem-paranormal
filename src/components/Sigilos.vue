@@ -1,12 +1,16 @@
 <script setup>
 import { ref } from 'vue';
 import DialogSimbolo from './DialogSimbolo.vue';
+import { getImageUrl } from '../plugins/global.js';
 
 const textarea = ref('');
 const textareaSinais = ref('');
 const tab = ref(1);
 const dialogSigilos = ref(false);
 const dialogSinais = ref(false);
+const imageSigilo = getImageUrl('Sigilos.webp');
+const imageSinais = getImageUrl('Sinais do Estrangeiro.webp');
+const imageTraducao = getImageUrl('Aglomerado_de_Traduções.webp');
 </script>
 <template>
     <v-container>
@@ -24,11 +28,11 @@ const dialogSinais = ref(false);
                                 <v-img
                                     height="300"
                                     aspect-ratio="4/3"
-                                    src="../assets/Sigilos.webp"
+                                    :src="imageSigilo"
                                     class="sigilos"
                                     @click="dialogSigilos = !dialogSigilos"
                                 >
-                                    <DialogSimbolo :src="'../assets/Sigilos.webp'" :alt="'Sigilos de Conhecimento'" />
+                                    <DialogSimbolo :src="imageSigilo" :alt="'Sigilos de Conhecimento'" magnify />
                                 </v-img>
                             </v-row>
                         </v-col>
@@ -56,10 +60,10 @@ const dialogSinais = ref(false);
                                     height="300"
                                     aspect-ratio="4/3"
                                     class="sigilos"
-                                    src="../assets/Sinais do Estrangeiro.webp"
+                                    :src="imageSinais"
                                     @click="dialogSinais = !dialogSinais"
                                 >
-                                    <DialogSimbolo :src="'../assets/Sinais do Estrangeiro.webp'" :alt="'Sinais do Estrangeiro'" />
+                                    <DialogSimbolo :src="imageSinais" :alt="'Sinais do Estrangeiro'" magnify />
                                 </v-img>
                             </v-row>
                             <v-row no-gutters class="d-flex flex-column" style="width: 100%;">
@@ -68,9 +72,9 @@ const dialogSinais = ref(false);
                                     height="350"
                                     aspect-ratio="4/3"
                                     class="sigilos"
-                                    src="../assets/Aglomerado_de_Traduções.webp"
+                                    :src="imageTraducao"
                                 >
-                                    <DialogSimbolo :src="'../assets/Aglomerado_de_Traduções.webp'" :alt="'Aglomerado de Traduções'" :fit="true" />
+                                    <DialogSimbolo :src="imageTraducao" :alt="'Aglomerado de Traduções'" :fit="true" magnify />
                                 </v-img>
                             </v-row>
                         </v-col>

@@ -12,5 +12,7 @@ function elementoCor(elemento) {
             return "#ebebea"
     }
 }
-
-export { elementoCor }
+function getImageUrl(image) {
+    return new URL(`../assets/${image}`, import.meta.url).href;
+}
+export { elementoCor, getImageUrl }

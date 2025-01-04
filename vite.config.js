@@ -6,7 +6,7 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 export default defineConfig({
   plugins: [
     vue({
-        template: { transformAssetUrls },
+        template: { transformAssetUrls},
     }),
     vuetify({
         autoImport: true,

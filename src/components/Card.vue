@@ -60,7 +60,7 @@ let ritual = Object.assign({}, rituals[ritualIndex]);
                 <strong>Referência:</strong> {{ ritual.referencia }};&nbsp
             </span>
             <v-spacer />
-            <DialogCard :ritualIndex="ritualIndex" :rituals="rituals"/>
+            <DialogCard :ritualIndex="ritualIndex" :rituals="rituals" />
         </v-card>
     </v-hover>
 </template>
