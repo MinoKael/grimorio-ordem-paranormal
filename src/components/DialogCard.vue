@@ -103,7 +103,7 @@ watch(dialog, () => {
                         </div>
                     </v-col>
                 </v-row>
-                <v-card-text class="pt-0">
+                <v-card-text class="pt-0 text-body-1">
                     <v-divider></v-divider>
     
                     <p class="mt-2 text-pre-wrap">{{ ritual.texto }}</p>
