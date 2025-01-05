@@ -48,7 +48,7 @@ const { mdAndUp } = useDisplay();
             <v-container class="d-flex flex-wrap pt-1 pb-1">
                 <Filtros v-if="mdAndUp" :mdAndUp="mdAndUp" />
 
-                <v-expansion-panels v-else class="mx-1 pb-1" color="">
+                <v-expansion-panels v-else class="mx-1 pb-1 font-weight-bold" color="#7B08D9">
                   <v-expansion-panel title="Filtros">
                     <v-expansion-panel-text>
                       <Filtros :mdAndUp="mdAndUp" />
