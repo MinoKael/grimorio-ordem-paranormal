@@ -1,6 +1,6 @@
 <script setup>
 import { ref, watch, computed } from 'vue';
-import { elementoCor, getImageUrl } from '../plugins/global.js';
+import { elementoCor, getImageUrl, diceIconText } from '../plugins/global.js';
 import DialogSimbolo from './DialogSimbolo.vue';
 import { useDisplay } from 'vuetify';
 
@@ -101,7 +101,7 @@ watch(dialog, () => {
             <v-card-text class="pt-0 pb-2 text-body-1">
                 <v-divider></v-divider>
                 
-                <p class="mt-2 text-pre-wrap">{{ currentRitual.texto }}</p>
+                <p class="mt-2 text-pre-wrap" v-html="diceIconText(currentRitual.texto)"></p>
                 
                 <v-divider class="my-3"></v-divider>
                 
@@ -109,7 +109,7 @@ watch(dialog, () => {
                     <span class="text-tormentaText font-weight-bold">
                         {{ aprimoramento.match(/.+?:/).toString() }}
                     </span>
-                    {{ aprimoramento.match(/(?<=:).+/).toString() }}
+                    <span v-html="diceIconText(aprimoramento.match(/(?<=:).+/).toString())"></span>
                 </p>
             </v-card-text>
             <v-card-actions class="justify-space-between">
@@ -186,7 +186,7 @@ watch(dialog, () => {
             <v-divider class="my-3"></v-divider>
             <v-card-text class="pt-2">
 
-                <p class="text-pre-wrap">{{ currentRitual.texto }}</p>
+                <p class="text-pre-wrap" v-html="diceIconText(currentRitual.texto)"></p>
 
                 <v-divider class="my-3"></v-divider>
 
@@ -194,7 +194,7 @@ watch(dialog, () => {
                     <span class="text-tormentaText font-weight-bold">{{
                         aprimoramento.match(/.+?:/).toString()
                     }}</span>
-                    {{ aprimoramento.match(/(?<=:).+/).toString() }}
+                    <span v-html="diceIconText(aprimoramento.match(/(?<=:).+/).toString())"></span>
                 </p>
             </v-card-text>
             <v-card-actions>

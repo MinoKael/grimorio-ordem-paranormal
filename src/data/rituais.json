@@ -872,10 +872,10 @@
         "efeito": null,
         "duracao": "cena",
         "resistencia": null,
-        "texto": "Espirais surgem no corpo do alvo, tornando seus movimentos lentos. O alvo sofre -1d20 em testes de ataque.",
+        "texto": "Espirais surgem no corpo do alvo, tornando seus movimentos lentos. O alvo sofre –1d20 em testes de ataque.",
         "aprimoramentos": [
-            "Discente (+2 PE): muda a penalidade para -2d20 Requer 2º círculo.",
-            "Verdadeiro (+8 PE): muda a penalidade para -2d20 e o alvo para “seres escolhidos”. Requer 3º círculo."
+            "Discente (+2 PE): muda a penalidade para –2d20. Requer 2º círculo.",
+            "Verdadeiro (+8 PE): muda a penalidade para –2d20 e o alvo para “seres escolhidos”. Requer 3º círculo."
         ],
         "simbolo": "Espirais da Perdição.webp",
         "referencia": "Ordem Paranormal RPG"
@@ -978,7 +978,7 @@
         "resistencia": null,
         "texto": "Você potencializa seus sentidos, recebendo +1d20 em Investigação, Luta, Percepção e Pontaria.",
         "aprimoramentos": [
-            "Discente (+2 PE): além do normal, seus inimigos sofrem -1d20 em testes de ataque contra você. Requer 2º círculo.",
+            "Discente (+2 PE): além do normal, seus inimigos sofrem –1d20 em testes de ataque contra você. Requer 2º círculo.",
             "Verdadeiro (+5 PE): além do normal, você apura seus sentidos para perceber perigo. Você fica imune às condições surpreendido e desprevenido e recebe +10 em Defesa e Reflexos. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Fortalecimento Sensorial.webp",
@@ -1808,7 +1808,7 @@
         "efeito": null,
         "duracao": "veja texto",
         "resistencia": null,
-        "texto": "Você faz o sacrif ício supremo e se entrega ao Sangue, sendo devorado em uma monstruosidade bestial por completo. Você fica mais forte, rápido e resistente, em troca de uma mente nublada pela raiva e uma aparência animalesca, sentindo os músculos rasgando, os ossos ficando protuberantes e a sua pele endurecendo em uma estrutura de couro rubro.\nVocê recebe faro, visão no escuro, cura acelerada 10, +10 em testes de ataque e rolagens de dano corpo a corpo e na Defesa, 30 PV temporários e seus ataques desarmados causam 1 dado de dano adicional e são considerados letais (sendo de corte, impacto ou perfuração à sua escolha no momento em que atacar). Após invocar o ritual, você não pode fazer mais fazer ações que demandem foco e concentração (como conjurar um ritual). Além disso, devido a sua aparência e estado violento, você sofre -3d20 em testes de perícias para interação social, como Diplomacia e Enganação.\nDiferente de outros rituais, este não possui fim. A cada rodada, você sente um pedaço da sua mente sendo devorado. Todas as suas memórias, pensamentos e existência sendo mastigados e consumidos pela intensidade do Sangue. As palavras fazem cada vez menos sentido, assim como falar e compreender os outros se torna cada vez mais impossível no meio da tormenta dos sentimentos. Suas emoções se convertem em um oceano de Sangue, tudo é tão intenso, todo toque é dor extrema, todo ataque é euforia, todo movimento é adrenalina… e finalmente, quando a cena em que conjurou o ritual acaba, o mínimo controle que você tinha de suas ações também se vai e você se torna, permanentemente, uma criatura de Sangue, sacrificando seu personagem para o Outro Lado e o perdendo para sempre.",
+        "texto": "Você faz o sacrifício supremo e se entrega ao Sangue, sendo devorado em uma monstruosidade bestial por completo. Você fica mais forte, rápido e resistente, em troca de uma mente nublada pela raiva e uma aparência animalesca, sentindo os músculos rasgando, os ossos ficando protuberantes e a sua pele endurecendo em uma estrutura de couro rubro.\nVocê recebe faro, visão no escuro, cura acelerada 10, +10 em testes de ataque e rolagens de dano corpo a corpo e na Defesa, 30 PV temporários e seus ataques desarmados causam 1 dado de dano adicional e são considerados letais (sendo de corte, impacto ou perfuração à sua escolha no momento em que atacar). Após invocar o ritual, você não pode fazer mais fazer ações que demandem foco e concentração (como conjurar um ritual). Além disso, devido a sua aparência e estado violento, você sofre –3d20 em testes de perícias para interação social, como Diplomacia e Enganação.\nDiferente de outros rituais, este não possui fim. A cada rodada, você sente um pedaço da sua mente sendo devorado. Todas as suas memórias, pensamentos e existência sendo mastigados e consumidos pela intensidade do Sangue. As palavras fazem cada vez menos sentido, assim como falar e compreender os outros se torna cada vez mais impossível no meio da tormenta dos sentimentos. Suas emoções se convertem em um oceano de Sangue, tudo é tão intenso, todo toque é dor extrema, todo ataque é euforia, todo movimento é adrenalina… e finalmente, quando a cena em que conjurou o ritual acaba, o mínimo controle que você tinha de suas ações também se vai e você se torna, permanentemente, uma criatura de Sangue, sacrificando seu personagem para o Outro Lado e o perdendo para sempre.",
         "aprimoramentos": [
             "Discente (+5 PE): muda os bônus para +20 e os PV temporários para 50. Requer afinidade."
         ],
@@ -1870,7 +1870,7 @@
         "efeito": null,
         "duracao": "sustentada",
         "resistencia": null,
-        "texto": "Por mais assustadora que seja a morte, você sabe que a melhor maneira de lidar com ela é aceitando o que ela tem a oferecer. Ao conjurar este ritual, você cobre o seu corpo com o fedor da Morte, parando suas funções biológicas e passando a cheirar como um cadáver apodrecendo. Seu coração para de bater, seus pulmões deixam de inflar, seu sangue cessa de fluir. Tudo fica, temporariamente, sendo sustentado pelo Lodo da Morte.\nNesse estado, qualquer animal se afasta de você instintivamente, como se você fosse uma fonte de doenças pútridas, e você sofre -3d20 em Diplomacia. Além disso, você recebe +5 em Furtividade, por se parecer com um corpo qualquer no cenário, e +10 em testes de Enganação para se fingir de morto. Em uma cena de furtividade (p. 92), enquanto você ficar parado, sua visibilidade é considerada 1 ponto menor. Na prática, você não está morto nem é um morto-vivo, não está imune a doenças ou outros efeitos biológicos, ainda precisa dormir etc. Ter seu corpo sustentado pelo Lodo é terrível; para cada rodada em que mantêm esse ritual, você sofre 1d4 pontos de dano de Morte que ignora resistências.",
+        "texto": "Por mais assustadora que seja a morte, você sabe que a melhor maneira de lidar com ela é aceitando o que ela tem a oferecer. Ao conjurar este ritual, você cobre o seu corpo com o fedor da Morte, parando suas funções biológicas e passando a cheirar como um cadáver apodrecendo. Seu coração para de bater, seus pulmões deixam de inflar, seu sangue cessa de fluir. Tudo fica, temporariamente, sendo sustentado pelo Lodo da Morte.\nNesse estado, qualquer animal se afasta de você instintivamente, como se você fosse uma fonte de doenças pútridas, e você sofre –3d20 em Diplomacia. Além disso, você recebe +5 em Furtividade, por se parecer com um corpo qualquer no cenário, e +10 em testes de Enganação para se fingir de morto. Em uma cena de furtividade (p. 92), enquanto você ficar parado, sua visibilidade é considerada 1 ponto menor. Na prática, você não está morto nem é um morto-vivo, não está imune a doenças ou outros efeitos biológicos, ainda precisa dormir etc. Ter seu corpo sustentado pelo Lodo é terrível; para cada rodada em que mantêm esse ritual, você sofre 1d4 pontos de dano de Morte que ignora resistências.",
         "aprimoramentos": [
             "Discente (+4 PE): muda o alcance para toque e o alvo para 1 ser voluntário.",
             "Verdadeiro (+9 PE): muda o alcance para curto e o alvo para até 5 seres voluntários. Requer afinidade."

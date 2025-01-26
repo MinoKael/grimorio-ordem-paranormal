@@ -16,4 +16,10 @@ function elementoCor(elemento) {
 function getImageUrl(image) {
     return `${import.meta.env.BASE_URL}assets/${image}`;
 }
-export { elementoCor, getImageUrl }
+function diceIconText(text) {
+    return text.replace(/(\d+)d20/g, (_, count) => {
+        const icons = '<span class="mdi mdi-dice-d20" style="font-size: 20px; position: relative; top: 2px;"></span>'.repeat(parseInt(count, 10));
+        return `${icons}`;
+    });
+}
+export { elementoCor, getImageUrl, diceIconText }

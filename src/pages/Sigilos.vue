@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import DialogSimbolo from './DialogSimbolo.vue';
+import DialogSimbolo from '../components/DialogSimbolo.vue';
 import { getImageUrl } from '../plugins/global.js';
 import { useDisplay } from 'vuetify';
 
