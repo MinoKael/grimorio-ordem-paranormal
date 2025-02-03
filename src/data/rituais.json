@@ -1312,7 +1312,7 @@
     {
         "id": 65,
         "nome": "Polarização Caótica",
-        "elemento": "padrão",
+        "elemento": "Energia",
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
