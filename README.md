@@ -17,9 +17,9 @@ Este projeto é um grimório digital para o RPG Ordem Paranormal. Ele permite ao
 ### Funcionalidades
 
 - **Pesquisa de Rituais**: Permite aos usuários pesquisar rituais por nome, elemento, círculo, etc.
-- **Visualização de Sigilos**: Exibe os sigilos associados aos rituais.
+- **Visualização de Sigilos**: Permite digitar texto que é convertido para os sigilos de Conhecimento.
 - **Filtros Avançados**: Filtra rituais com base em várias propriedades.
-- **Diálogos Interativos**: Exibe informações detalhadas sobre rituais e sigilos em diálogos.
+- **Condições**: Exibe informações detalhadas sobre todas as condições do Livro de Regras.
 
 ### Tecnologias Utilizadas
 
