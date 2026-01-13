@@ -32,6 +32,21 @@ watch(dialog, () => {
         currentIndex.value = ritualIndex;
     }
 });
+const handleKey = (event) => {
+    if (event.key === 'ArrowLeft') {
+    prevRitual();
+    } else if (event.key === 'ArrowRight') {
+    nextRitual();
+    }
+};
+
+onMounted(() => {
+    window.addEventListener('keydown', handleKey);
+});
+
+onUnmounted(() => {
+    window.removeEventListener('keydown', handleKey);
+});
 </script>
 <template>
     <v-dialog
