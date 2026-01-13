@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, computed } from 'vue';
+import { ref, watch, computed, onMounted, onUnmounted } from 'vue';
 import { elementoCor, getImageUrl, diceIconText } from '../plugins/global.js';
 import DialogSimbolo from './DialogSimbolo.vue';
 import { useDisplay } from 'vuetify';
