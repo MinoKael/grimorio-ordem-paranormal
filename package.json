@@ -1,5 +1,6 @@
 {
   "name": "grimorio-ordem-paranormal",
+  "homepage": "https://minokael.github.io/grimorio-ordem-paranormal/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build && git subtree push --prefix dist origin gh-pages"
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "pinia": "^2.3.0",
@@ -18,6 +20,7 @@
   "devDependencies": {
     "@mdi/font": "^7.4.47",
     "@vitejs/plugin-vue": "^5.2.1",
+    "gh-pages": "^6.3.0",
     "vite": "^6.0.5",
     "vite-plugin-vuetify": "^2.0.3"
   }
