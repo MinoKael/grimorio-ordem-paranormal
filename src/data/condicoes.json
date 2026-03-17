@@ -75,107 +75,117 @@
         "descricao": "O personagem fica lento, vulnerável e sofre –1d20 em testes de ataque. Condição de paralisia."
     },
     {
-        "id": 16,
+        "id": 15,
+        "nome": "Enlouquecendo",
+        "descricao": "Se iniciar três turnos enlouquecendo na mesma cena (não necessariamente consecutivos), você fica insano — seu personagem se torna um NPC. A condição pode ser encerrada com um teste de Diplomacia (DT 20 +5 por vez que já tiver sido acalmado na cena) ou por qualquer efeito que cure pelo menos 1 de Sanidade."
+    },
+    {
+        "id": 17,
         "nome": "Envenenado",
         "descricao": "O efeito desta condição varia de acordo com o veneno. Pode ser outra condição (por exemplo, fraco ou enjoado) ou dano recorrente (por exemplo, 1d12 pontos de dano de veneno por rodada). A descrição do veneno determina a duração dele (caso nada seja dito, a condição dura pela cena). Dano recorrente de condições envenenado sempre se acumula (mesmo se as condições ou fontes que as causam forem iguais)."
     },
     {
-        "id": 17,
+        "id": 18,
         "nome": "Esmorecido",
         "descricao": "O personagem sofre –2d20 em testes de Intelecto e Presença. Condição mental."
     },
     {
-        "id": 18,
+        "id": 19,
         "nome": "Exausto",
         "descricao": "O personagem fica debilitado, lento e vulnerável. Se ficar exausto novamente, em vez disso fica inconsciente. Condição de fadiga."
     },
     {
-        "id": 19,
+        "id": 20,
         "nome": "Fascinado",
         "descricao": "Com a atenção presa em alguma coisa. O personagem sofre –2d20 em Percepção e não pode fazer ações, exceto observar aquilo que o fascinou. Qualquer ação hostil contra o personagem anula esta condição. Balançar um ser fascinado para tirá-lo desse estado gasta uma ação padrão. Condição mental."
     },
     {
-        "id": 20,
+        "id": 21,
         "nome": "Fatigado",
         "descricao": "O personagem fica fraco e vulnerável. Se o personagem ficar fatigado novamente, em vez disso fica exausto. Condição de fadiga."
     },
     {
-        "id": 21,
+        "id": 22,
         "nome": "Fraco",
         "descricao": "O personagem sofre –1d20 em testes de Agilidade, Força e Vigor. Se ficar fraco novamente, em vez disso fica debilitado."
     },
     {
-        "id": 22,
+        "id": 23,
         "nome": "Frustrado",
         "descricao": "O personagem sofre –1d20 em testes de Intelecto e Presença. Se ficar frustrado novamente, em vez disso fica esmorecido. Condição mental."
     },
     {
-        "id": 23,
+        "id": 24,
         "nome": "Imóvel",
         "descricao": "Todas as formas de deslocamento do personagem são reduzidas a 0m. Condição de paralisia."
     },
     {
-        "id": 24,
+        "id": 25,
         "nome": "Incosciente",
         "descricao": "O personagem fica indefeso e não pode fazer ações, incluindo reações. Balançar um ser para acordá-lo gasta uma ação padrão."
     },
     {
-        "id": 25,
+        "id": 26,
         "nome": "Indefeso",
         "descricao": "O personagem é considerado desprevenido, mas sofre -10 na Defesa, falha automaticamente em testes de Reflexos e pode sofrer golpes de misericórdia."
     },
     {
-        "id": 26,
+        "id": 27,
         "nome": "Lento",
         "descricao": "Todas as formas de deslocamento do personagem são reduzidas à metade (arredonde para baixo para o primeiro incremento de 1,5m) e ele não pode correr ou fazer investidas. Condição de paralisia."
     },
     {
-        "id": 27,
+        "id": 28,
         "nome": "Machucado",
         "descricao": "O personagem tem menos da metade de seus pontos de vida totais."
     },
     {
-        "id": 28,
+        "id": 29,
         "nome": "Morrendo",
         "descricao": "Com 0 pontos de vida. Se iniciar três turnos morrendo na mesma cena (não necessariamente consecutivos), você morre. Esta condição só é encerrada com um teste de Medicina (DT 20) ou por efeitos específicos."
     },
     {
-        "id": 29,
+        "id": 30,
         "nome": "Ofuscado",
         "descricao": "O personagem sofre –1d20 em testes de ataque e de Percepção. Condição de sentidos."
     },
     {
-        "id": 30,
+        "id": 31,
         "nome": "Paralisado",
         "descricao": "O personagem fica imóvel e indefeso e só pode realizar ações puramente mentais. Condição de paralisia."
     },
     {
-        "id": 31,
+        "id": 32,
         "nome": "Pasmo",
         "descricao": "O personagem não pode fazer ações. Condição mental."
     },
     {
-        "id": 32,
+        "id": 33,
+        "nome": "Perturbado",
+        "descricao": "Na primeira vez que isso acontece em uma cena, você recebe um efeito de insanidade (veja a p. 111)."
+    },
+    {
+        "id": 34,
         "nome": "Petrificado",
         "descricao": "O personagem fica inconsciente e recebe resistência a dano 10."
     },
     {
-        "id": 33,
+        "id": 35,
         "nome": "Sangrando",
         "descricao": "Com um ferimento aberto. No início de seus turnos, o personagem deve fazer um teste de Vigor (DT 20). Se passar, estabiliza e remove essa condição. Se falhar, perde 1d6 pontos de vida e continua sangrando."
     },
     {
-        "id": 34,
+        "id": 36,
         "nome": "Surdo",
         "descricao": "O personagem não pode fazer testes de Percepção para ouvir e sofre –2d20 em testes de Iniciativa. Além disso, é considerado em condição ruim para lançar rituais. Condição de sentidos."
     },
     {
-        "id": 35,
+        "id": 37,
         "nome": "Surpreendido",
         "descricao": "Não ciente de seus inimigos. O personagem fica desprevenido e não pode fazer ações."
     },
     {
-        "id": 36,
+        "id": 38,
         "nome": "Vulnerável",
         "descricao": "O personagem sofre -2 na Defesa."
     }
