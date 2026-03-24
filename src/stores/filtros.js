@@ -136,15 +136,29 @@ export const useFiltrosStore = defineStore('filtros', () => {
                     ritualProperty !== null)
             );
         }
+
+        if (filterValues.length === 0) return true;
+
+        // --- NOVA LÓGICA PARA ARRAYS (Elementos) ---
+        if (Array.isArray(ritualProperty)) {
+            return ritualProperty.some(prop => 
+                filterValues.some(f => 
+                    normalizeString(prop).includes(normalizeString(f))
+                )
+            );
+        }
+
+        // --- LÓGICA ORIGINAL PARA STRINGS ---
+        const normalizedProp = normalizeString(ritualProperty);
+        
         return (
-            filterValues.length === 0 ||
             filterValues.some(x =>
-                normalizeString(ritualProperty).includes(normalizeString(x))
+                normalizedProp.includes(normalizeString(x))
             ) ||
             (filterValues.includes('Outros') &&
                 ritualProperty !== null &&
                 !filterOptions.some(x =>
-                    normalizeString(ritualProperty).includes(normalizeString(x))
+                    normalizedProp.includes(normalizeString(x))
                 ))
         );
     }
