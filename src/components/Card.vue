@@ -21,18 +21,24 @@ let ritual = Object.assign({}, rituals[ritualIndex]);
                     ritual.nome
                 }}</v-card-title>
                 <v-card-subtitle class="pb-2">
-                    <span
-                        class="text-h6 px-1"
-                        :class="ritual.elemento === 'Medo' ? 'font-weight-light' : 'font-weight-bold '"
-                        :style="{
-                            'background-color': elementoCor(ritual.elemento),
-                            color: ritual.elemento === 'Medo' ? 'black' : 'white'
-                        }"
-                        >{{ ritual.elemento }} {{ ritual.circulo }}</span
-                    >
-                    <span class="text-redTormenta text-h6 font-weight-bold ml-1"
-                        >{{ ritual.custo }} PE</span
-                    >
+                  <span
+                    v-for="(el, index) in ritual.elemento"
+                    :key="index"
+                    class="text-subtitle-1"
+                    :class="el === 'Medo' ? 'font-weight-light' : 'font-weight-bold'"
+                    :style="{ 'background-color': elementoCor(el), color: el === 'Medo' ? 'black' : 'white',}"
+                  >
+                    {{ el }}
+                    <span v-if="ritual.elemento.length === 1" class="ml-1">
+                        {{ ritual.circulo }}
+                    </span>
+                  </span>
+                  <span v-if="ritual.elemento.length > 1" class="text-subtitle-1 font-weight-bold pl-1">
+                      {{ ritual.circulo }}
+                  </span>
+                  <span class="ml-2 text-subtitle-1 font-weight-bold">
+                      {{ ritual.custo }} PE
+                  </span>
                 </v-card-subtitle>
             </v-card-item>
             <span v-if="ritual.execucao">

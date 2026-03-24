@@ -65,18 +65,24 @@ onUnmounted(() => {
                         {{ currentRitual.nome }}
                     </v-card-title>
                     <v-card-subtitle class="d-flex align-center font-weight-bold px-6">
-                        <span
+                      <span
+                        v-for="(el, index) in currentRitual.elemento"
+                        :key="index"
                         class="text-h6 px-1"
-                        :class="currentRitual.elemento === 'Medo' ? 'font-weight-light' : 'font-weight-bold '"
-                        :style="{
-                                'background-color': elementoCor(currentRitual.elemento),
-                                color: currentRitual.elemento === 'Medo' ? 'black' : 'white'
-                            }">
-                            {{ currentRitual.elemento }} {{ currentRitual.circulo }}
+                        :class="el === 'Medo' ? 'font-weight-light' : 'font-weight-bold'"
+                        :style="{ 'background-color': elementoCor(el), color: el === 'Medo' ? 'black' : 'white',}"
+                      >
+                        {{ el }}
+                        <span v-if="currentRitual.elemento.length === 1" class="ml-1">
+                            {{ currentRitual.circulo }}
                         </span>
-                        <span class="text-h6 font-weight-bold ml-1">
-                            {{ currentRitual.custo }} PE
-                        </span>
+                      </span>
+                      <span v-if="currentRitual.elemento.length > 1" class="text-h6 font-weight-bold pl-1">
+                          {{ currentRitual.circulo }}
+                      </span>
+                      <span class="ml-2 text-h6 font-weight-bold">
+                          {{ currentRitual.custo }} PE
+                      </span>
                     </v-card-subtitle>
                     <v-card-text class="d-flex flex-column px-6 text-body-1">
                         <span v-if="currentRitual.execucao">
@@ -159,18 +165,24 @@ onUnmounted(() => {
                 </img>
             </span>
             <v-card-subtitle class="d-flex align-center font-weight-bold px-6">
-                <span
-                    class="text-h6 px-1"
-                    :class="currentRitual.elemento === 'Medo' ? 'font-weight-light' : 'font-weight-bold '"
-                    :style="{
-                        'background-color': elementoCor(currentRitual.elemento),
-                        color: currentRitual.elemento === 'Medo' ? 'black' : 'white'
-                    }">
-                    {{ currentRitual.elemento }} {{ currentRitual.circulo }}
+              <span
+                v-for="(el, index) in currentRitual.elemento"
+                :key="index"
+                class="text-h6 px-1"
+                :class="el === 'Medo' ? 'font-weight-light' : 'font-weight-bold'"
+                :style="{ 'background-color': elementoCor(el), color: el === 'Medo' ? 'black' : 'white',}"
+              >
+                {{ el }}
+                <span v-if="currentRitual.elemento.length === 1" class="ml-1">
+                    {{ currentRitual.circulo }}
                 </span>
-                <span class="ml-2 text-h6 font-weight-bold">
-                    {{ currentRitual.custo }} PE
-                </span>
+              </span>
+              <span v-if="currentRitual.elemento.length > 1" class="text-h6 pl-1">
+                  {{ currentRitual.circulo }}
+              </span>
+              <span class="ml-2 text-h6 font-weight-bold">
+                  {{ currentRitual.custo }} PE
+              </span>
             </v-card-subtitle>
             <div class="d-flex flex-column text-body-1 pl-6">
                 <span v-if="currentRitual.execucao">

@@ -20,6 +20,7 @@ export default createVuetify({
                     primary: '#2B2343', // Dark Purple
                     secondary: '#5CBBF6', // Light Sky Blue
                     tormentaText: '#CE2A28', // Red Tormenta
+                    ordemText: '#7B08D9',
                 },
             },
         },

@@ -1,12 +1,14 @@
 function elementoCor(elemento) {
-    switch (elemento) {
-        case "Conhecimento":
+    const nome = Array.isArray(elemento) ? elemento[0] : elemento;
+    const el = nome?.toLowerCase().trim();
+    switch (el) {
+        case "conhecimento":
             return "#b78521"
-        case "Energia":
+        case "energia":
             return "#8d0cf6"
-        case "Morte":
+        case "morte":
             return "#27292e"
-        case "Sangue":
+        case "sangue":
             return "#a7181d"
         default:
             return "#ebebea"

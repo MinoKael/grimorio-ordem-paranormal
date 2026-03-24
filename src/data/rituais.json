@@ -2,7 +2,7 @@
     {
         "id": 1,
         "nome": "Alterar Destino",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 4,
         "custo": 10,
         "execucao": "reação",
@@ -22,7 +22,7 @@
     {
         "id": 2,
         "nome": "Alterar Memória",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -42,7 +42,7 @@
     {
         "id": 3,
         "nome": "Amaldiçoar Arma",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -63,7 +63,7 @@
     {
         "id": 4,
         "nome": "Amaldiçoar Arma",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -84,7 +84,7 @@
     {
         "id": 5,
         "nome": "Amaldiçoar Arma",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -105,7 +105,7 @@
     {
         "id": 6,
         "nome": "Amaldiçoar Arma",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -127,7 +127,7 @@
     {
         "id": 7,
         "nome": "Amaldiçoar Tecnologia",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -148,7 +148,7 @@
     {
         "id": 8,
         "nome": "Âncora Temporal",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -168,7 +168,7 @@
     {
         "id": 9,
         "nome": "Aprimorar Físico",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -189,7 +189,7 @@
     {
         "id": 10,
         "nome": "Aprimorar Mente",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -210,7 +210,7 @@
     {
         "id": 11,
         "nome": "Arma Atroz",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -231,7 +231,7 @@
     {
         "id": 12,
         "nome": "Armadura de Sangue",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -252,7 +252,7 @@
     {
         "id": 13,
         "nome": "Canalizar o Medo",
-        "elemento": "Medo",
+        "elemento": ["Medo"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -270,7 +270,7 @@
     {
         "id": 14,
         "nome": "Capturar o Coração",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -288,7 +288,7 @@
     {
         "id": 15,
         "nome": "Chamas do Caos",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -309,7 +309,7 @@
     {
         "id": 16,
         "nome": "Cicatrização",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -330,7 +330,7 @@
     {
         "id": 17,
         "nome": "Cinerária",
-        "elemento": "Medo",
+        "elemento": ["Medo"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -351,7 +351,7 @@
     {
         "id": 18,
         "nome": "Coincidência Forçada",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -372,7 +372,7 @@
     {
         "id": 19,
         "nome": "Compreensão Paranormal",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -393,7 +393,7 @@
     {
         "id": 20,
         "nome": "Conhecendo o Medo",
-        "elemento": "Medo",
+        "elemento": ["Medo"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -411,7 +411,7 @@
     {
         "id": 21,
         "nome": "Consumir Manancial",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -432,7 +432,7 @@
     {
         "id": 22,
         "nome": "Contato Paranormal",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 3,
         "custo": 6,
         "execucao": "completa",
@@ -453,7 +453,7 @@
     {
         "id": 23,
         "nome": "Contenção Fantasmagórica",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -474,7 +474,7 @@
     {
         "id": 24,
         "nome": "Controle Mental",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -495,7 +495,7 @@
     {
         "id": 25,
         "nome": "Convocação Instantânea",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -516,7 +516,7 @@
     {
         "id": 26,
         "nome": "Convocar o Algoz",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -534,7 +534,7 @@
     {
         "id": 27,
         "nome": "Corpo Adaptado",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -555,7 +555,7 @@
     {
         "id": 28,
         "nome": "Decadência",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -576,7 +576,7 @@
     {
         "id": 29,
         "nome": "Definhar",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -597,7 +597,7 @@
     {
         "id": 30,
         "nome": "Deflagração de Energia",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 4,
         "custo": 10,
         "execucao": "completa",
@@ -617,7 +617,7 @@
     {
         "id": 31,
         "nome": "Desacelerar Impacto",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 2,
         "custo": 3,
         "execucao": "reação",
@@ -637,7 +637,7 @@
     {
         "id": 32,
         "nome": "Descarnar",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -658,7 +658,7 @@
     {
         "id": 33,
         "nome": "Detecção de Ameaças",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -679,7 +679,7 @@
     {
         "id": 34,
         "nome": "Dissipar Ritual",
-        "elemento": "Medo",
+        "elemento": ["Medo"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -697,7 +697,7 @@
     {
         "id": 35,
         "nome": "Dissonância Acústica",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -718,7 +718,7 @@
     {
         "id": 36,
         "nome": "Distorção Temporal",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -736,7 +736,7 @@
     {
         "id": 37,
         "nome": "Distorcer Aparência",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -757,7 +757,7 @@
     {
         "id": 38,
         "nome": "Eco Espiral",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -778,7 +778,7 @@
     {
         "id": 39,
         "nome": "Eletrocussão",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -799,7 +799,7 @@
     {
         "id": 40,
         "nome": "Embaralhar",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -820,7 +820,7 @@
     {
         "id": 41,
         "nome": "Enfeitiçar",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -841,7 +841,7 @@
     {
         "id": 42,
         "nome": "Esconder dos Olhos",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 2,
         "custo": 3,
         "execucao": "livre",
@@ -862,7 +862,7 @@
     {
         "id": 43,
         "nome": "Espirais da Perdição",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -883,7 +883,7 @@
     {
         "id": 44,
         "nome": "Ferver Sangue",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -903,7 +903,7 @@
     {
         "id": 45,
         "nome": "Fim Inevitável",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 4,
         "custo": 10,
         "execucao": "completa",
@@ -924,7 +924,7 @@
     {
         "id": 46,
         "nome": "Flagelo de Sangue",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -945,7 +945,7 @@
     {
         "id": 47,
         "nome": "Forma Monstruosa",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -966,7 +966,7 @@
     {
         "id": 48,
         "nome": "Fortalecimento Sensorial",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -987,7 +987,7 @@
     {
         "id": 49,
         "nome": "Hemofagia",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1008,7 +1008,7 @@
     {
         "id": 50,
         "nome": "Inexistir",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1029,7 +1029,7 @@
     {
         "id": 51,
         "nome": "Invadir Mente",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1050,7 +1050,7 @@
     {
         "id": 52,
         "nome": "Invólucro de Carne",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1068,7 +1068,7 @@
     {
         "id": 53,
         "nome": "Lâmina do Medo",
-        "elemento": "Medo",
+        "elemento": ["Medo"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1086,7 +1086,7 @@
     {
         "id": 54,
         "nome": "Localização",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1107,7 +1107,7 @@
     {
         "id": 55,
         "nome": "Luz",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1128,7 +1128,7 @@
     {
         "id": 56,
         "nome": "Medo Tangível",
-        "elemento": "Medo",
+        "elemento": ["Medo"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1146,7 +1146,7 @@
     {
         "id": 57,
         "nome": "Mergulho Mental",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1166,7 +1166,7 @@
     {
         "id": 58,
         "nome": "Miasma Entrópico",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1187,7 +1187,7 @@
     {
         "id": 59,
         "nome": "Nuvem de Cinzas",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1208,7 +1208,7 @@
     {
         "id": 60,
         "nome": "Ódio Incontrolável",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1229,7 +1229,7 @@
     {
         "id": 61,
         "nome": "Ouvir os Sussurros",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 1,
         "custo": 1,
         "execucao": "completa",
@@ -1250,7 +1250,7 @@
     {
         "id": 62,
         "nome": "Paradoxo",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1271,7 +1271,7 @@
     {
         "id": 63,
         "nome": "Perturbação",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1292,7 +1292,7 @@
     {
         "id": 64,
         "nome": "Poeira da Podridão",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1312,7 +1312,7 @@
     {
         "id": 65,
         "nome": "Polarização Caótica",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1333,7 +1333,7 @@
     {
         "id": 66,
         "nome": "Possessão",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1351,7 +1351,7 @@
     {
         "id": 67,
         "nome": "Presença do Medo",
-        "elemento": "Medo",
+        "elemento": ["Medo"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1369,7 +1369,7 @@
     {
         "id": 68,
         "nome": "Proteção contra Rituais",
-        "elemento": "Medo",
+        "elemento": ["Medo"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1390,7 +1390,7 @@
     {
         "id": 69,
         "nome": "Purgatório",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1408,7 +1408,7 @@
     {
         "id": 70,
         "nome": "Rejeitar Névoa",
-        "elemento": "Medo",
+        "elemento": ["Medo"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1429,7 +1429,7 @@
     {
         "id": 71,
         "nome": "Salto Fantasma",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1450,7 +1450,7 @@
     {
         "id": 72,
         "nome": "Sopro do Caos",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1471,7 +1471,7 @@
     {
         "id": 73,
         "nome": "Tecer Ilusão",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1492,7 +1492,7 @@
     {
         "id": 74,
         "nome": "Tela de Ruído",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1513,7 +1513,7 @@
     {
         "id": 75,
         "nome": "Teletransporte",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1533,7 +1533,7 @@
     {
         "id": 76,
         "nome": "Tentáculos de Lodo",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1553,7 +1553,7 @@
     {
         "id": 77,
         "nome": "Terceiro Olho",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1574,7 +1574,7 @@
     {
         "id": 78,
         "nome": "Transfigurar Água",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1594,7 +1594,7 @@
     {
         "id": 79,
         "nome": "Transfigurar Terra",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1615,7 +1615,7 @@
     {
         "id": 80,
         "nome": "Transfusão Vital",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1636,7 +1636,7 @@
     {
         "id": 81,
         "nome": "Velocidade Mortal",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1657,7 +1657,7 @@
     {
         "id": 82,
         "nome": "Vidência",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 3,
         "custo": 6,
         "execucao": "completa",
@@ -1675,7 +1675,7 @@
     {
         "id": 83,
         "nome": "Vínculo de Sangue",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1693,7 +1693,7 @@
     {
         "id": 84,
         "nome": "Vomitar Pestes",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1714,7 +1714,7 @@
     {
         "id": 85,
         "nome": "Zerar Entropia",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1735,7 +1735,7 @@
     {
         "id": 86,
         "nome": "Esfolar",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1756,7 +1756,7 @@
     {
         "id": 87,
         "nome": "Sede de Adrenalina",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 2,
         "custo": 3,
         "execucao": "reação",
@@ -1777,7 +1777,7 @@
     {
         "id": 88,
         "nome": "Odor da Caçada",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1798,7 +1798,7 @@
     {
         "id": 89,
         "nome": "Martírio de Sangue",
-        "elemento": "Sangue",
+        "elemento": ["Sangue"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1818,7 +1818,7 @@
     {
         "id": 90,
         "nome": "Apagar as Luzes",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1839,7 +1839,7 @@
     {
         "id": 91,
         "nome": "Língua Morta",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1860,7 +1860,7 @@
     {
         "id": 92,
         "nome": "Fedor Pútrido",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1881,7 +1881,7 @@
     {
         "id": 93,
         "nome": "Singularidade Temporal",
-        "elemento": "Morte",
+        "elemento": ["Morte"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1902,7 +1902,7 @@
     {
         "id": 94,
         "nome": "Desfazer Sinapses",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1923,7 +1923,7 @@
     {
         "id": 95,
         "nome": "Aurora da Verdade",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1944,7 +1944,7 @@
     {
         "id": 96,
         "nome": "Relembrar Fragmento",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1965,7 +1965,7 @@
     {
         "id": 97,
         "nome": "Pronunciar Sigilo",
-        "elemento": "Conhecimento",
+        "elemento": ["Conhecimento"],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1986,7 +1986,7 @@
     {
         "id": 98,
         "nome": "Overclock",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 1,
         "custo": 1,
         "execucao": "reação",
@@ -2007,7 +2007,7 @@
     {
         "id": 99,
         "nome": "Tremeluzir",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -2028,7 +2028,7 @@
     {
         "id": 100,
         "nome": "Mutar",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -2049,7 +2049,7 @@
     {
         "id": 101,
         "nome": "Milagre Ionizante",
-        "elemento": "Energia",
+        "elemento": ["Energia"],
         "circulo": 3,
         "custo": 6,
         "execucao": "completa",
@@ -2066,38 +2066,41 @@
     },
     {
         "id": 102,
-        "nome": "Leitura Psíquica",
-        "elemento": "Conhecimento",
+        "nome": "Passagem de Conhecimento",
+        "elemento": ["Sangue", "Conhecimento"],
         "circulo": 2,
         "custo": 3,
-        "execucao": "movimento",
-        "alcance": "curto",
-        "alvo": "1 pessoa",
-        "area": null,
-        "efeito": null,
-        "duracao": "instantânea",
-        "resistencia": null,
-        "texto": "Invadindo os pensamentos de uma pessoa, você pode prever sua próxima ação. Ao utilizar essa habilidade em seu alvo, o mestre tem que declarar qual vai ser a próxima ação dele antes de seu turno. Essa ação pode mudar caso ocorra algo impactante, a critério do mestre, antes de seu turno.",
-        "aprimoramentos": [],
-        "simbolo": "Leitura Psíquica.webp",
-        "referencia": "Dragão Brasil 203"
-    },
-    {
-        "id": 103,
-        "nome": "Esferas de Sangue",
-        "elemento": "Sangue",
-        "circulo": 3,
-        "custo": 6,
-        "execucao": "padrão",
+        "execucao": "completa",
         "alcance": "toque",
         "alvo": "1 pessoa",
         "area": null,
         "efeito": null,
-        "duracao": "veja texto",
-        "resistencia": "Vontade anula",
-        "texto": "Você usa de sua conexão com o Sangue para capturar parte da essência vital do alvo na forma de esferas sanguinolentas. Enquanto você estiver com as esferas, o alvo precisa ser prestativo a você. Se ele se recusar, você pode deixá-lo esmorecido, debilitado e lento como uma ação livre ou reação. Se o alvo encostar nas esferas, elas voltam para ele, o ritual se encerra e ele fica imune ao ritual. As esferas ocupam 1 espaço e não podem ser separadas.",
+        "duracao": "cena",
+        "resistencia": "Vontade evita",
+        "texto": "Você transfere sua consciência para o corpo do alvo.<br>Quando conjura este ritual, você deve escolher entre habitar o corpo do alvo e tentar sobrepor a mente dele ou fazer uma transferência completa, em que as consciências são trocadas e o alvo passa a habitar o seu corpo.<br>No primeiro caso, se o alvo falhar no teste de resistência, você passa a controlar o corpo dele (o seu próprio corpo cai inconsciente). Você continua usando sua ficha, mas substitui seus atributos físicos (Força, Agilidade e Vigor) pelos do alvo. De acordo com o mestre, você pode usar outras características inatas do corpo do alvo. No início de cada turno do alvo, ele pode repetir o teste de resistência para tentar recuperar o controle de seu corpo. Além disso, a critério do mestre (conforme a história e a sua relação com a pessoa), o alvo pode tentar recuperar o controle mais de uma vez por rodada. Se ele passar, você retorna para seu próprio corpo, que desperta na hora. Se o corpo do alvo morrer enquanto você o está ocupando, você também morre. Se o seu corpo morrer, você fica permanentemente preso no corpo do alvo e, se o alvo conseguir recuperar o controle do corpo, você morre.<br>No segundo caso, se o alvo falhar no teste de resistência, você passa a controlar o corpo dele e ele o seu. Ambos continuam usando suas fichas, mas substituem seus atributos físicos (Força, Agilidade e Vigor) pelos do outro. De acordo com o mestre, ambos podem usar outras características inatas do outro corpo. Nesse caso, o alvo não pode tentar se libertar novamente. A única maneira de reaver seu corpo é com o fim da duração do ritual ou conjurando este ritual contra aquele que tomou seu corpo de você. Se um dos corpos morrer, quem está ocupando ele também morre e é impossível retornar para um corpo morto.",
+        "aprimoramentos": [
+          "Discente (+3 PE): O alcance muda para curto e a duração para 1 dia. No primeiro caso, o alvo só pode tentar recuperar o controle do corpo uma vez por dia ou uma vez por cena (o que for maior), em vez de uma vez por rodada.",
+          "Verdadeiro (+7 PE): O alcance muda para médio e a duração para permanente. No primeiro caso, o alvo só pode tentar recuperar o controle do corpo uma vez por ano, em vez de uma vez por rodada. Requer 4º círculo e afinidade."
+        ],
+        "simbolo": "Passagem de Conhecimento.webp",
+        "referencia": "Arquivos Secretos"
+    },
+    {
+        "id": 103,
+        "nome": "Passagem de Conhecimento Expandido",
+        "elemento": ["Sangue", "Conhecimento"],
+        "circulo": 4,
+        "custo": 10,
+        "execucao": "1 dia",
+        "alcance": "curto",
+        "alvo": "até 10 pessoas",
+        "area": null,
+        "efeito": null,
+        "duracao": "permanente",
+        "resistencia": null,
+        "texto": "Criado por Agatha Volkomenn, este ritual é uma versão avançada de Passagem de Conhecimento, capaz de afetar várias pessoas ao mesmo tempo. Ele só pode ser aprendido por personagens capazes de conjurar Passagem de Conhecimento.<br>Este ritual afeta de duas a dez pessoas, sempre em número par. Os alvos devem ser separados em dois grupos, sendo um deles o grupo principal. Cada alvo do grupo principal se sente submerso em um oceano infinito e, banhado pelo fluxo do Outro Lado, deve escolher um alvo do outro grupo. Entretanto, essa escolha nunca é simples, premeditada ou aleatória. As consciências deverão navegar através de suas intenções até alcançar o corpo adequado (veja o quadro Os Passos da Passagem, na p. 51). Quando a escolha enfim é feita, as consciências trocam de corpos. Ao contrário da versão normal deste ritual, os personagens assumem os atributos e habilidades do corpo novo.<br>Como parte da conjuração deste ritual, os corpos de um dos grupos podem ficar presos em caixões, num estado transitório, enquanto os corpos do outro grupo ficam livres no mundo. Os caixões não podem ser abertos antes de 1d6+1 dias, e só podem ser abertos por quem participou do ritual. Se um caixão for aberto enquanto o corpo estiver nesse estado transitório, o corpo se transforma em um anulado (veja a p. 52).<br>O cérebro humano não consegue suportar a transferência completa, por isso bloqueia as memórias da consciência original, que retornam lentamente. Além disso, quando um personagem fica emocionalmente instável, pode perder o controle para as intenções do corpo invadido por alguns momentos. Em termos de regras, sempre que o personagem ficar enlouquecendo, insano ou perturbado, deve rolar 1d4; em um resultado 1, perde o controle para as intenções do corpo invadido por 1d4 rodadas.<br>A única maneira de se voltar ao corpo original é refazer este ritual presencialmente. Se sua consciência morrer enquanto está no corpo trocado, estará permanentemente morta, assim como se estivesse em seu próprio corpo.",
         "aprimoramentos": [],
-        "simbolo": "Esferas de Sangue.webp",
-        "referencia": "Dragão Brasil 209"
+        "simbolo": "Passagem de Conhecimento Expandido.webp",
+        "referencia": "Arquivos Secretos"
     }
 ]

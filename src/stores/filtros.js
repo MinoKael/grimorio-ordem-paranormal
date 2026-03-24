@@ -84,7 +84,7 @@ export const useFiltrosStore = defineStore('filtros', () => {
         Referência: [
             'Ordem Paranormal RPG',
             'OPRPG - Sobrevivendo ao Horror',
-            'Dragão Brasil',
+            'Arquivos Secretos'
         ]
     });
 
