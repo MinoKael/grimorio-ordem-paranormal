@@ -84,7 +84,11 @@ export const useFiltrosStore = defineStore('filtros', () => {
         Referência: [
             'Livro Básico',
             'Sobrevivendo ao Horror',
-            'Arquivos Secretos'
+            'Arquivos Secretos',
+            'Arquivos Secretos - Janeiro',
+            'Arquivos Secretos - Fevereiro',
+            'Arquivos Secretos - Junho',
+            'Arquivos Secretos - Julho',
         ]
     });
 
