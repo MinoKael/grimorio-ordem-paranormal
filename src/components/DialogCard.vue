@@ -3,6 +3,7 @@ import { ref, watch, computed, onMounted, onUnmounted } from 'vue';
 import { elementoCor, getImageUrl, diceIconText } from '../plugins/global.js';
 import DialogSimbolo from './DialogSimbolo.vue';
 import { useDisplay } from 'vuetify';
+import { referenciaFormatter } from '../utils/referenciaFormatter.js';
 
 
 const { mdAndUp } = useDisplay();
@@ -107,7 +108,7 @@ onUnmounted(() => {
                             <span class="text-tormentaText"><strong>Resistência:</strong> </span> {{ currentRitual.resistencia }};&nbsp
                         </span>
                         <span>
-                            <span class="text-tormentaText"><strong>Referência:</strong> </span> {{ currentRitual.referencia }};&nbsp
+                            <span class="text-tormentaText"><strong>Referência:</strong> </span> {{ referenciaFormatter(currentRitual.referencia) }};&nbsp
                         </span>
                     </v-card-text>
                 </v-col>
@@ -124,13 +125,12 @@ onUnmounted(() => {
                 
                 <p class="mt-2 text-pre-wrap" v-html="diceIconText(currentRitual.texto)"></p>
                 
-                <v-divider class="my-3"></v-divider>
-                
-                <p v-for="aprimoramento in currentRitual.aprimoramentos">
+                <p class="text-pre-wrap" v-for="aprimoramento in currentRitual.aprimoramentos">
+                    <v-divider class="my-3"></v-divider>
                     <span class="text-tormentaText font-weight-bold">
                         {{ aprimoramento.match(/.+?:/).toString() }}
                     </span>
-                    <span v-html="diceIconText(aprimoramento.match(/(?<=:).+/).toString())"></span>
+                    <span v-html="diceIconText(aprimoramento.match(/(?<=:).+/s).toString())"></span>
                 </p>
             </v-card-text>
             <v-card-actions class="justify-space-between">
@@ -217,11 +217,11 @@ onUnmounted(() => {
 
                 <v-divider class="my-3"></v-divider>
 
-                <p v-for="aprimoramento in currentRitual.aprimoramentos">
+                <p class="text-pre-wrap" v-for="aprimoramento in currentRitual.aprimoramentos">
                     <span class="text-tormentaText font-weight-bold">{{
                         aprimoramento.match(/.+?:/).toString()
                     }}</span>
-                    <span v-html="diceIconText(aprimoramento.match(/(?<=:).+/).toString())"></span>
+                    <span v-html="diceIconText(aprimoramento.match(/(?<=:).+/s).toString())"></span>
                 </p>
             </v-card-text>
             <v-card-actions>
