@@ -88,19 +88,14 @@ export const useFiltroPoderesStore = defineStore('filtroPoderes', () => {
     }
     function filterPoderes() {
         filteredJson.value = jsonPoderes.value.filter((poder) => {
-          return (
-            stringSearch(poder.nome, filtroPesquisa.nome) &&
-            new RegExp(normalizeString(filtroPesquisa.texto), 'i').test(normalizeString(poder.texto)) &&
-            applyFilterArray(filtroPesquisa.tags, poder.tags, filtroPesquisa.tagsOperador) &&
-            applyFilter(filtroPesquisa.referencia, poder.referencia)
-          );
+            return (
+                stringSearch(poder.nome, filtroPesquisa.nome) &&
+                new RegExp(normalizeString(filtroPesquisa.texto), 'i').test(normalizeString(poder.texto)) &&
+                applyFilterArray(filtroPesquisa.tags, poder.tags, filtroPesquisa.tagsOperador) &&
+                applyFilterArray(filtroPesquisa.referencia, poder.referencia)
+            );
         });
     };
-
-    function applyFilter(filterValues, poderProperty) {
-        if (filterValues.length === 0) return true;
-        return filterValues.some((x) => normalizeString(poderProperty).includes(normalizeString(x)))
-    }
     function applyFilterArray(filterValues, poderProperty, operador = 'or') {
         if (filterValues.length === 0) return true;
 
