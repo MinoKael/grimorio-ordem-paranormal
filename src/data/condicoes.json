@@ -75,7 +75,7 @@
         "descricao": "O personagem fica lento, vulnerável e sofre –1d20 em testes de ataque. Condição de paralisia."
     },
     {
-        "id": 15,
+        "id": 16,
         "nome": "Enlouquecendo",
         "descricao": "Se iniciar três turnos enlouquecendo na mesma cena (não necessariamente consecutivos), você fica insano — seu personagem se torna um NPC. A condição pode ser encerrada com um teste de Diplomacia (DT 20 +5 por vez que já tiver sido acalmado na cena) ou por qualquer efeito que cure pelo menos 1 de Sanidade."
     },
