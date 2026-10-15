@@ -1,6 +1,7 @@
 <script setup>
 import DialogCard from './DialogCard.vue';
 import { elementoCor } from '../plugins/global.js'; 
+import { referenciaFormatter } from '../utils/referenciaFormatter.js';
 
 const { ritualIndex, rituals } = defineProps(['ritualIndex', 'rituals']);
 let ritual = Object.assign({}, rituals[ritualIndex]);
@@ -63,7 +64,7 @@ let ritual = Object.assign({}, rituals[ritualIndex]);
                 <strong>Resistência: </strong> {{ ritual.resistencia }};&nbsp
             </span>
             <span>
-                <strong>Referência:</strong> {{ ritual.referencia }};&nbsp
+                <strong>Referência:</strong> {{ referenciaFormatter(ritual.referencia) }};&nbsp
             </span>
             <v-spacer />
             <DialogCard :ritualIndex="ritualIndex" :rituals="rituals" />

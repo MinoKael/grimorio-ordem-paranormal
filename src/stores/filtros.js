@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia';
 import { reactive, ref } from 'vue';
 import rawJson from '../data/rituais.json';
+import { montarOpcoesReferencia } from '../utils/referenciaArquivosSecretos';
 
 const jsonRituais = rawJson.sort((a, b) => {
     const nomeA = a.nome
@@ -81,11 +82,11 @@ export const useFiltrosStore = defineStore('filtros', () => {
             'Outros'
         ],
         Resistência: ['Fortitude', 'Reflexos', 'Vontade', 'Outros'],
-        Referência: [
+        Referência: montarOpcoesReferencia(jsonRituais, [
             'Livro Básico',
             'Sobrevivendo ao Horror',
-            'Arquivos Secretos'
-        ]
+            'Arquivos Secretos',
+        ])
     });
 
     const filteredJson = ref(jsonRituais);
@@ -139,6 +140,11 @@ export const useFiltrosStore = defineStore('filtros', () => {
 
         if (filterValues.length === 0) return true;
 
+        // opções podem ser strings ou { name, value }; o filtro usa o value
+        const opcoes = (filterOptions ?? []).map((opcao) =>
+            typeof opcao === 'string' ? opcao : opcao.value
+        );
+
         // --- NOVA LÓGICA PARA ARRAYS (Elementos) ---
         if (Array.isArray(ritualProperty)) {
             return ritualProperty.some(prop => 
@@ -157,7 +163,7 @@ export const useFiltrosStore = defineStore('filtros', () => {
             ) ||
             (filterValues.includes('Outros') &&
                 ritualProperty !== null &&
-                !filterOptions.some(x =>
+                !opcoes.some(x =>
                     normalizedProp.includes(normalizeString(x))
                 ))
         );
