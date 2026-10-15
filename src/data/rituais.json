@@ -2,7 +2,9 @@
     {
         "id": 1,
         "nome": "Alterar Destino",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "reação",
@@ -17,12 +19,16 @@
             "Verdadeiro (+5 PE): muda o alcance para “curto” e alvo para “um aliado à sua escolha”."
         ],
         "simbolo": "Alterar Destino.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 2,
         "nome": "Alterar Memória",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -37,12 +43,16 @@
             "Verdadeiro (+4 PE): você pode alterar ou apagar memórias de até 24 horas atrás. Requer 4° círculo."
         ],
         "simbolo": "Alterar Memória.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 3,
         "nome": "Amaldiçoar Arma",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -58,12 +68,16 @@
             "Verdadeiro (+5 PE): muda o bônus de dano para +4d6. Requer 3º círculo e afinidade."
         ],
         "simbolo": "Amaldiçoar Arma com Conhecimento.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 4,
         "nome": "Amaldiçoar Arma",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -79,12 +93,16 @@
             "Verdadeiro (+5 PE): muda o bônus de dano para +4d6. Requer 3º círculo e afinidade."
         ],
         "simbolo": "Amaldiçoar Arma com Energia.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 5,
         "nome": "Amaldiçoar Arma",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -100,12 +118,16 @@
             "Verdadeiro (+5 PE): muda o bônus de dano para +4d6. Requer 3º círculo e afinidade."
         ],
         "simbolo": "Amaldiçoar Arma com Morte.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 6,
         "nome": "Amaldiçoar Arma",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -121,13 +143,16 @@
             "Verdadeiro (+5 PE): muda o bônus de dano para +4d6. Requer 3º círculo e afinidade."
         ],
         "simbolo": "Amaldiçoar Arma com Sangue.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
-
     {
         "id": 7,
         "nome": "Amaldiçoar Tecnologia",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -143,12 +168,16 @@
             "Verdadeiro (+5 PE): muda para três modificações. Requer 3° círculo e afinidade."
         ],
         "simbolo": "Amaldiçoar Tecnologia.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 8,
         "nome": "Âncora Temporal",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -163,12 +192,16 @@
             "Verdadeiro (+4 PE): muda o alvo para “seres a sua escolha”. Requer 4° círculo."
         ],
         "simbolo": "Âncora Temporal.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 9,
         "nome": "Aprimorar Físico",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -184,12 +217,16 @@
             "Verdadeiro (+7 PE): muda o bônus para +3. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Aprimorar Físico.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 10,
         "nome": "Aprimorar Mente",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -205,12 +242,16 @@
             "Verdadeiro (+7 PE): muda o bônus para +3. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Aprimorar Mente.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 11,
         "nome": "Arma Atroz",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -226,12 +267,16 @@
             "Verdadeiro (+5 PE): muda o bônus para +5 em testes de ataque e +2 na margem de ameaça e no multiplicador de crítico. Requer 3º círculo e afinidade."
         ],
         "simbolo": "Arma Atroz.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 12,
         "nome": "Armadura de Sangue",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -247,12 +292,16 @@
             "Verdadeiro (+9 PE): muda o efeito para “fornece +15 na Defesa e resistência a balístico, corte, impacto e perfuração 10”. Requer 4° círculo e afinidade."
         ],
         "simbolo": "Armadura de Sangue.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 13,
         "nome": "Canalizar o Medo",
-        "elemento": ["Medo"],
+        "elemento": [
+            "Medo"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -265,12 +314,16 @@
         "texto": "Você transfere parte de seu poder para outra pessoa. Escolha um ritual de até 3º círculo que você conheça; o alvo pode conjurar este ritual em sua forma básica uma vez, sem pagar seu custo em PE (mas pode usar formas avançadas gastando seus próprios PE para isso). Até o ritual transferido ser conjurado, seus PE máximos diminuem em um valor igual ao custo dele.",
         "aprimoramentos": [],
         "simbolo": "Canalizar o Medo.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 14,
         "nome": "Capturar o Coração",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -283,12 +336,16 @@
         "texto": "Você desperta uma paixão doentia e obcecada por você no alvo, que passa a querar agradá-lo a todo custo, mesmo que para isso precise ficar contra seus amigos. No início de cada turno do alvo ele deve fazer um teste de Vontade. Se falhar, age de forma a ajudá-lo na melhor de suas capacidades naquele turno. Se o alvo passar nesse teste dois turnos seguidos o efeito termina.",
         "aprimoramentos": [],
         "simbolo": "Capturar o Coração.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 15,
         "nome": "Chamas do Caos",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -304,12 +361,16 @@
             "Verdadeiro (+7 PE): como discente, mas muda o dano para 8d6. Requer 3º círculo."
         ],
         "simbolo": "Chamas do Caos.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 16,
         "nome": "Cicatrização",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -325,12 +386,16 @@
             "Verdadeiro (+9 PE): muda o alcance para “curto”, o alvo para “seres escolhidos” e aumenta a cura para 7d8+7 PV. Requer 4º círculo e afinidade com Morte."
         ],
         "simbolo": "Cicatrização.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 17,
         "nome": "Cinerária",
-        "elemento": ["Medo"],
+        "elemento": [
+            "Medo"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -346,12 +411,16 @@
             "Verdadeiro (+5 PE): além do normal, rituais conjurados dentro da névoa causam dano maximizado."
         ],
         "simbolo": "Cinerária.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 18,
         "nome": "Coincidência Forçada",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -367,12 +436,16 @@
             "Verdadeiro (+5 PE): muda o alvo para aliados à sua escolha e o bônus para +5. Requer 3º círculo e afinidade."
         ],
         "simbolo": "Coincidência Forçada.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 19,
         "nome": "Compreensão Paranormal",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -388,12 +461,16 @@
             "Verdadeiro (+5 PE): muda o alcance para “pessoal” e o alvo para “você”. Em vez do normal, você pode falar, entender e escrever qualquer idioma humano. Requer 3º círculo."
         ],
         "simbolo": "Compreensão Paranormal.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 20,
         "nome": "Conhecendo o Medo",
-        "elemento": ["Medo"],
+        "elemento": [
+            "Medo"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -406,12 +483,16 @@
         "texto": "Você manifesta medo absoluto na mente do alvo. Se ele falhar no teste de resistência, a Sanidade dele é reduzida a 0 e ele fica enlouquecendo. Se ele passar, sofre 10d6 pontos de dano mental e fica apavorado por 1 rodada. Uma pessoa que fique insana pelo efeito deste ritual se transforma em uma criatura paranormal a critério do mestre.",
         "aprimoramentos": [],
         "simbolo": "Conhecendo o Medo.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 21,
         "nome": "Consumir Manancial",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -427,12 +508,16 @@
             "Verdadeiro (+5 PE): muda o alvo para “área: esfera com 6m de raio centrada em você” e a resistência para “Fortitude reduz à metade”. Em vez do normal, você suga energia de todos os seres vivos na área, causando 3d6 pontos de dano de Morte em cada um e recebendo PV temporários iguais ao dano total causado até o final da cena. Requer 3º círculo e afinidade."
         ],
         "simbolo": "Consumir Manancial.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 22,
         "nome": "Contato Paranormal",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "completa",
@@ -448,12 +533,16 @@
             "Verdadeiro (+9 PE): muda os dados de auxílio para d12. Sempre que rolar um 12 num desses dados, a entidade toma 5 pontos de sua Sanidade. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Contato Paranormal.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 23,
         "nome": "Contenção Fantasmagórica",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -469,12 +558,16 @@
             "Verdadeiro (+5 PE): como discente, e cada laço destruído libera uma onda de choque que causa 2d6+2 pontos de dano de Energia no alvo agarrado. Requer 3º círculo e afinidade"
         ],
         "simbolo": "Contenção Fantasmagórica.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 24,
         "nome": "Controle Mental",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -490,12 +583,16 @@
             "Verdadeiro (+10 PE): muda o alvo para até dez pessoas ou animais. Requer afinidade com Conhecimento."
         ],
         "simbolo": "Controle Mental.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 25,
         "nome": "Convocação Instantânea",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -511,12 +608,16 @@
             "Verdadeiro (+9 PE): muda o alvo para “1 recipiente Médio (como uma mala ou caixote), com itens que somem até 10 espaços” e a duração para “permanente”. Em vez do normal, você encanta o recipiente para mantê-lo escondido no Outro Lado. Você pode convocar o recipiente para um espaço livre adjacente, ou de volta para o esconderijo paranormal, com uma ação padrão. Para isso, você deve ter em mãos uma miniatura do objeto, que funciona como um utensílio de categoria II. Quando conjura esta versão do ritual, você perde 1 PE permanentemente."
         ],
         "simbolo": "Convocação Instantânea.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 26,
         "nome": "Convocar o Algoz",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -529,12 +630,16 @@
         "texto": "Usando os medos subconscientes do alvo, você manipula a espiral da Morte para criar uma imagem daquilo que ele mais teme. Apenas a própria vítima vê o algoz com nitidez; outros seres presentes (incluindo você) enxergam apenas um vulto sombrio. O algoz surge adjacente a você. No fim de cada turno seu, ele flutua 12m em direção à vítima. Se o algoz terminar o turno em alcance curto da vítima, ela deve fazer um teste de Vontade; se falhar, ficará abalada. Se o algoz terminar o turno adjacente à vítima, ela deve fazer um teste de Fortitude. Se falhar, sofre um colapso e fica com 0 PV. Se passar, sofre 6d6 pontos de dano de Morte (este dano não pode reduzir o alvo a menos de 1 PV). O algoz persegue o alvo implacavelmente, mesmo além do alcance do ritual. Ele é incorpóreo e imune a dano e só desaparece se deixar o alvo morrendo ou se for dissipado.",
         "aprimoramentos": [],
         "simbolo": "Convocar o Algoz.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 27,
         "nome": "Corpo Adaptado",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -550,12 +655,16 @@
             "Verdadeiro (+5 PE): muda o alcance para “curto” e o alvo para “pessoas ou animais escolhidos”."
         ],
         "simbolo": "Corpo Adaptado.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 28,
         "nome": "Decadência",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -571,12 +680,16 @@
             "Verdadeiro (+5 PE): muda o alcance para “pessoal” o alvo para “área: explosão com 6m de raio” e o dano para 8d8+8. As espirais afetam todos os seres na área. Requer 3º círculo."
         ],
         "simbolo": "Decadência.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 29,
         "nome": "Definhar",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -592,12 +705,16 @@
             "Verdadeiro (+5 PE): como discente, mas muda o alvo para “até 5 seres”. Requer 3º círculo e afinidade com Morte."
         ],
         "simbolo": "Definhar.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 30,
         "nome": "Deflagração de Energia",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "completa",
@@ -612,12 +729,16 @@
             "Verdadeiro (+5 PE): afeta apenas alvos a sua escolha."
         ],
         "simbolo": "Deflagração de Energia.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 31,
         "nome": "Desacelerar Impacto",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "reação",
@@ -632,12 +753,16 @@
             "Discente (+3 PE): aumenta o total de alvos para seres ou objetos somando até 100 espaços."
         ],
         "simbolo": "Desacelerar Impacto.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 32,
         "nome": "Descarnar",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -653,12 +778,16 @@
             "Verdadeiro (+7 PE): muda o alvo para você e a duração para sustentada. Enquanto o ritual durar, seus ataques corpo a corpo causam 4d8 pontos de dano de Sangue adicional e deixam o alvo com hemorragia automaticamente (como no efeito básico do ritual). O alvo ainda tem direito a um teste de Fortitude no início de seus turnos. Requer 3º círculo e afinidade."
         ],
         "simbolo": "Descarnar.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 33,
         "nome": "Detecção de Ameaças",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -674,12 +803,16 @@
             "Verdadeiro (+5 PE): muda a duração para “1 dia” e concede os mesmos benefícios de discente. Requer 4º círculo."
         ],
         "simbolo": "Detecção de Ameaças.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 34,
         "nome": "Dissipar Ritual",
-        "elemento": ["Medo"],
+        "elemento": [
+            "Medo"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -692,12 +825,16 @@
         "texto": "Você dissipa rituais ativos, como se a duração deles tivesse acabado. Efeitos de rituais instantâneos não podem ser dissipados (não se pode dissipar uma área de Paradoxo depois que já causou dano…). Faça um teste de Ocultismo; você anula quaisquer rituais ativos no alvo ou na área com DT igual ou menor que o resultado do teste. Você pode conjurar esse ritual em um item amaldiçoado para que se torne um item mundano (perdendo seus poderes) por um dia. Se o item estiver em posse de alguém, seu usuário pode fazer um teste de Vontade para negar o efeito.",
         "aprimoramentos": [],
         "simbolo": "Dissipar Ritual.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 35,
         "nome": "Dissonância Acústica",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -713,12 +850,16 @@
             "Verdadeiro (+3 PE): muda a duração para cena. Em vez do normal, nenhum som pode deixar a área, mas seres dentro da área podem falar, ouvir e conjurar rituais normalmente. Requer 3º círculo."
         ],
         "simbolo": "Dissonância Acústica.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 36,
         "nome": "Distorção Temporal",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -731,12 +872,16 @@
         "texto": "Este ritual distorce o fluxo de tempo em relação a você, criando um pequeno bolsão temporal que dura 3 rodadas. Durante este tempo, você pode agir, mas não pode se deslocar do lugar nem interagir com seres e objetos. Da mesma forma, efeitos contínuos não o afetam, e quaisquer efeitos que você iniciar não afetarão a área ao seu redor. Efeitos de área com duração maior que este efeito vão agir normalmente quando o bolsão temporal acabar.",
         "aprimoramentos": [],
         "simbolo": "Distorção Temporal.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 37,
         "nome": "Distorcer Aparência",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -752,12 +897,16 @@
             "Verdadeiro (+5 PE): como em Discente, mas muda o alvo para “seres escolhidos”. Requer 3º círculo."
         ],
         "simbolo": "Distorcer Aparência.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 38,
         "nome": "Eco Espiral",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -773,12 +922,16 @@
             "Verdadeiro (+7 PE): muda a duração para “até 3 rodadas”, permitindo que você se concentre nas duas primeiras e descarregue na terceira. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Eco Espiral.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 39,
         "nome": "Eletrocussão",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -794,12 +947,16 @@
             "Verdadeiro (+5 PE): muda a área para “alvos escolhidos”. Em vez do normal, você dispara vários relâmpagos, um para cada alvo escolhido, causando 8d6 pontos de dano de Energia em cada. Requer 3º círculo."
         ],
         "simbolo": "Eletrocussão.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 40,
         "nome": "Embaralhar",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -815,12 +972,16 @@
             "Verdadeiro (+5 PE): muda o número de cópias para 8 (e o bônus na Defesa para +16). Além do normal, toda vez que uma cópia é destruída, emite um clarão de luz. O ser que destruiu a cópia fica ofuscado por uma rodada. Requer 3º círculo."
         ],
         "simbolo": "Embaralhar.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 41,
         "nome": "Enfeitiçar",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -836,12 +997,16 @@
             "Verdadeiro (+5 PE): afeta todos os alvos dentro do alcance. Requer 3º círculo."
         ],
         "simbolo": "Enfeitiçar.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 42,
         "nome": "Esconder dos Olhos",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "livre",
@@ -857,12 +1022,16 @@
             "Verdadeiro (+7 PE): muda a execução para “ação padrão”, o alcance para “toque”, o alvo para “1 ser” e a duração para “sustentada”. O efeito não é dissipado caso o alvo faça um ataque ou ação hostil. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Esconder dos Olhos.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 43,
         "nome": "Espirais da Perdição",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -878,12 +1047,16 @@
             "Verdadeiro (+8 PE): muda a penalidade para –2d20 e o alvo para “seres escolhidos”. Requer 3º círculo."
         ],
         "simbolo": "Espirais da Perdição.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 44,
         "nome": "Ferver Sangue",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -898,12 +1071,16 @@
             "Verdadeiro (+4 PE): muda o alvo para “seres escolhidos”. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Ferver Sangue.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 45,
         "nome": "Fim Inevitável",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "completa",
@@ -919,12 +1096,16 @@
             "Verdadeiro (+10 PE): muda a duração para “6 rodadas” e o efeito para que seres escolhidos dentro do alcance não sejam afetados. Requer afinidade."
         ],
         "simbolo": "Fim Inevitável.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 46,
         "nome": "Flagelo de Sangue",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -940,12 +1121,16 @@
             "Verdadeiro (+7 PE): como Discente, e muda a duração para “1 dia”. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Flagelo de Sangue.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 47,
         "nome": "Forma Monstruosa",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -961,12 +1146,16 @@
             "Verdadeiro (+9 PE): muda os bônus em testes de ataque e rolagens de dano para +10 e os PV temporários para 50. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Forma Monstruosa.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 48,
         "nome": "Fortalecimento Sensorial",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -982,12 +1171,16 @@
             "Verdadeiro (+5 PE): além do normal, você apura seus sentidos para perceber perigo. Você fica imune às condições surpreendido e desprevenido e recebe +10 em Defesa e Reflexos. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Fortalecimento Sensorial.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 49,
         "nome": "Hemofagia",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1003,12 +1196,16 @@
             "Verdadeiro (+7 PE): muda o alcance para “pessoal”, o alvo para “você” e a duração para “cena”. Em vez do normal, a cada rodada você pode gastar uma ação padrão para tocar 1 ser e causar 4d6 pontos de dano de Sangue. Você recupera PV iguais à metade do dano causado. Requer 4º círculo."
         ],
         "simbolo": "Hemofagia.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 50,
         "nome": "Inexistir",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1024,12 +1221,16 @@
             "Verdadeiro (+10 PE): muda o dano para 20d12+20 e o dano resistido para 4d12. Requer afinidade."
         ],
         "simbolo": "Inexistir.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 51,
         "nome": "Invadir Mente",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1045,12 +1246,16 @@
             "Verdadeiro (+7 PE): se escolher rajada mental, aumenta o dano para 10d6 e muda o alvo para “seres escolhidos”. Se escolher ligação telepática, você pode criar um vínculo mental entre até 5 pessoas. Requer 4º círculo."
         ],
         "simbolo": "Invadir Mente.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 52,
         "nome": "Invólucro de Carne",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1063,12 +1268,16 @@
         "texto": "Você manifesta uma poça de sangue no chão, de onde emerge uma cópia sua. Ela é idêntica em aparência e capacidades (em termos de jogo, tem as mesmas estatísticas) e surge com uma cópia de todo equipamento mundano que você estiver carregando. A cópia não tem consciência (valor de Intelecto e Presença nulos) e não age sem que você dê uma ordem. Você pode gastar uma ação de movimento para dar uma ordem à cópia, como “lute contra aquele ser”. No final de cada um de seus turnos, a cópia segue a ordem da melhor maneira possível, mas ainda é incapaz de tomar decisões sozinha e acatará qualquer ordem perigosa sem hesitar, mesmo que leve à sua destruição.\nAlternativamente, no início de seu turno, você pode controlar ativamente a cópia. Se fizer isso, você entra num transe temporário e assume o controle da cópia como se fosse seu corpo, usando os sentidos dela. Qualquer ser que interagir com a cópia tem direito a um teste de Percepção (DT do ritual) para perceber que é uma cópia. A cópia se desfaz em uma poça de sangue coagulado se chegar a 0 PV ou sair do alcance.",
         "aprimoramentos": [],
         "simbolo": "Invólucro de Carne.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 53,
         "nome": "Lâmina do Medo",
-        "elemento": ["Medo"],
+        "elemento": [
+            "Medo"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1081,12 +1290,16 @@
         "texto": "Você manifesta uma lâmina impossível, que pode ser descrita apenas como uma “fenda na Realidade”, com a qual golpeia um alvo adjacente. Se o alvo falhar no teste de Fortitude, seus PV são reduzidos a 0 e ele fica morrendo; se passar, sofre 10d8 pontos de dano de Medo (ignora todas as resistências) e fica apavorado por uma rodada. Se uma pessoa ficar morrendo pela Lâmina do Medo e sobreviver, o ferimento causado pelo ritual passa a se transformar constantemente, jamais cicatrizando e fazendo com que a pessoa passe a viver em dor constante. Aprender este ritual requer um poder de trilha específico.",
         "aprimoramentos": [],
         "simbolo": "Lâmina do Medo.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 54,
         "nome": "Localização",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1102,12 +1315,16 @@
             "Verdadeiro (+7 PE): aumenta a área para círculo de 1km de raio. Requer 4º círculo."
         ],
         "simbolo": "Localização.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 55,
         "nome": "Luz",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1123,12 +1340,16 @@
             "Verdadeiro (+5 PE): a luz é cálida como a do sol. Dentro da área seus aliados recebem +1d20 em testes de Vontade, e seus inimigos ficam ofuscados. Requer 3º círculo."
         ],
         "simbolo": "Luz.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 56,
         "nome": "Medo Tangível",
-        "elemento": ["Medo"],
+        "elemento": [
+            "Medo"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1141,12 +1362,16 @@
         "texto": "O ritual transforma seu corpo em uma manifestação do Medo, tornando-o imune a efeitos mundanos. Você fica imune às condições atordoado, cego, debilitado, enjoado, envenenado, exausto, fatigado, fraco, lento, ofuscado e paralisado, além de doenças e venenos, e não sofre dano adicional por acertos críticos e ataques furtivos. Além disso, dano do tipo balístico, corte, impacto ou perfuração não podem reduzir seu total de pontos de vida abaixo de 1, tornando-o virtualmente imortal contra efeitos mundanos.",
         "aprimoramentos": [],
         "simbolo": "Medo Tangível.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 57,
         "nome": "Mergulho Mental",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1161,12 +1386,16 @@
             "Verdadeiro (+4 PE): muda a execução para 1 dia, o alcance para ilimitado e adiciona como componente ritualístico uma cuba de ouro cheia d’água e uma máscara (acessório de categoria II). Você pode realizar o mergulho mental à distância, submergindo seu rosto mascarado na água enquanto mentaliza o alvo. Para que esse ritual funcione, você precisa ter alguma informação sobre o alvo, como nome completo, e um objeto pessoal ou fotografia. Requer 4º círculo."
         ],
         "simbolo": "Mergulho Mental.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 58,
         "nome": "Miasma Entrópico",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1182,12 +1411,16 @@
             "Verdadeiro (+7 PE): muda a duração para 3 rodadas. Um ser que inicie seu turno dentro da área sofre o dano novamente. Requer 3º círculo."
         ],
         "simbolo": "Miasma Entrópico.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 59,
         "nome": "Nuvem de Cinzas",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1203,12 +1436,16 @@
             "Verdadeiro (+5 PE): além do normal, a nuvem fica espessa, quase sólida. Qualquer ser dentro dela tem seu deslocamento reduzido para 3m (independente de seu deslocamento normal) e sofre –2 em testes de ataque. Requer 3º círculo."
         ],
         "simbolo": "Nuvem de Cinzas.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 60,
         "nome": "Ódio Incontrolável",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1224,12 +1461,16 @@
             "Verdadeiro (+5 PE): muda o bônus de ataque e dano para +5 e o alvo passa a sofrer apenas metade do dano dos tipos balístico, corte, impacto e perfuração. Requer 3º círculo e afinidade."
         ],
         "simbolo": "Ódio Incontrolável.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 61,
         "nome": "Ouvir os Sussurros",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "completa",
@@ -1245,12 +1486,16 @@
             "Verdadeiro (+5 PE): muda a execução para 10 minutos e a duração para 5 rodadas. Em vez do normal, você consulta os ecos, podendo fazer uma pergunta por rodada, desde que ela possa ser respondida com “sim”, “não” ou “ninguém sabe”. O mestre rola a chance de falha para cada pergunta. Em caso de falha, a resposta também é “ninguém sabe”. Requer 3º círculo."
         ],
         "simbolo": "Ouvir os Sussurros.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 62,
         "nome": "Paradoxo",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1266,12 +1511,16 @@
             "Verdadeiro (+7 PE): muda o dano para 13d6. Seres reduzidos a 0 PV pelo dano do Paradoxo devem fazer um teste de Fortitude. Se falharem, são reduzidos a cinzas (morrem imediatamente). Requer 4º círculo."
         ],
         "simbolo": "Paradoxo.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 63,
         "nome": "Perturbação",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1287,12 +1536,16 @@
             "Verdadeiro (+5 PE): muda o alvo para “até 5 seres” ou adiciona o seguinte comando: “Ataque. O alvo deve fazer a ação agredir contra um outro alvo a sua escolha em alcance médio, com todas as suas capacidades”. Requer 3º círculo e afinidade."
         ],
         "simbolo": "Perturbação.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 64,
         "nome": "Poeira da Podridão",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1307,12 +1560,16 @@
             "Verdadeiro (+4 PE): muda o dano para 4d8+16."
         ],
         "simbolo": "Poeira da Podridão.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 65,
         "nome": "Polarização Caótica",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1328,12 +1585,16 @@
             "Verdadeiro (+5 PE): muda o alcance para médio. Você pode usar uma ação de movimento para fazer com que a força magnética levite e mova um ser ou objeto de espaço 10 ou menor por até 9m em qualquer direção dentro do alcance. Um ser pode anular o efeito sobre ele, ou sobre um objeto que possua, passando num teste de Vontade. O alvo cai no chão se sair do alcance ou o efeito terminar."
         ],
         "simbolo": "Polarização Caótica.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 66,
         "nome": "Possessão",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1346,12 +1607,16 @@
         "texto": "Você projeta sua consciência no corpo de uma pessoa viva ou morta. Enquanto possuir o alvo, você assume o controle total do corpo dele (se o alvo estiver vivo, a consciência dele troca de lugar com a sua, ficando inerte dentro do seu corpo desacordado). Em termos de jogo, você continua usando a sua ficha, mas com os atributos físicos (Agilidade, Força e Vigor) e deslocamento do alvo. Se o alvo passar no teste de resistência, sabe que você tentou possuí-lo e fica imune a este ritual por um dia. Caso qualquer um dos envolvidos no ritual morra, a mente sobrevivente ficará permanentemente presa no corpo novo, a não ser que use o ritual outra vez para voltar a seu corpo antigo. Retornar para o seu corpo voluntariamente é uma ação livre.",
         "aprimoramentos": [],
         "simbolo": "Possessão.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 67,
         "nome": "Presença do Medo",
-        "elemento": ["Medo"],
+        "elemento": [
+            "Medo"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1364,12 +1629,16 @@
         "texto": "Você se torna um receptáculo para o Medo puro, emanando ondas de pavor e ruína. Alvos dentro da área no momento da conjuração ou no início de cada um de seus turnos são acometidos por sofrimento intenso e sofrem 5d8 de dano mental e 5d8 de dano de Medo (Vontade reduz ambos à metade). Alvos que falharem no teste ficam atordoados por uma rodada (este efeito funciona apenas uma vez por cena).",
         "aprimoramentos": [],
         "simbolo": "Presença do Medo.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 68,
         "nome": "Proteção contra Rituais",
-        "elemento": ["Medo"],
+        "elemento": [
+            "Medo"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1385,12 +1654,16 @@
             "Verdadeiro (+6 PE): muda o alvo para “até 5 seres tocados”, a resistência a dano para 10 e o bônus em testes de resistência para +10. Requer 4º círculo."
         ],
         "simbolo": "Proteção contra Rituais.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 69,
         "nome": "Purgatório",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1403,12 +1676,16 @@
         "texto": "Você faz brotar uma poça de sangue pegajoso na área afetada. Inimigos na área se tornam vulneráveis a dano balístico, de corte, de impacto e de perfuração. Um alvo que tente sair da área é acometido de uma dor terrível; sofre 6d6 pontos de dano de Sangue e deve fazer um teste de Fortitude. Se passar, consegue sair. Se falhar, a dor faz com que não consiga se mover e perca a ação de movimento.",
         "aprimoramentos": [],
         "simbolo": "Purgatório.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 70,
         "nome": "Rejeitar Névoa",
-        "elemento": ["Medo"],
+        "elemento": [
+            "Medo"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1424,12 +1701,16 @@
             "Verdadeiro (+5 PE): como discente, e o dano causado dentro da névoa por rituais é sempre mínimo."
         ],
         "simbolo": "Rejeitar Névoa.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 71,
         "nome": "Salto Fantasma",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1445,12 +1726,16 @@
             "Verdadeiro (+4 PE): muda o alcance para longo e o alvo para você e até dois outros seres voluntários que você esteja tocando."
         ],
         "simbolo": "Salto Fantasma.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 72,
         "nome": "Sopro do Caos",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1466,12 +1751,16 @@
             "Verdadeiro (+9 PE): passa a afetar alvos Enormes."
         ],
         "simbolo": "Sopro do Caos.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 73,
         "nome": "Tecer Ilusão",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1487,12 +1776,16 @@
             "Verdadeiro (+5 PE): você cria a ilusão de um perigo mortal. Quando o ritual é conjurado, e no início de cada um de seus turnos, um alvo interagindo com a ilusão deve fazer um teste de Vontade; se falhar, acredita que a ilusão é real e sofre 6d6 pontos de dano de Conhecimento. O alvo racionaliza o efeito sempre que falha no teste (por exemplo, acredita que o mesmo teto pode cair sobre ele várias vezes). Se um alvo passar em dois testes de Vontade seguidos, o efeito é anulado para ele. Requer 3º círculo."
         ],
         "simbolo": "Tecer Ilusão.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 74,
         "nome": "Tela de Ruído",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1508,12 +1801,16 @@
             "Verdadeiro (+7 PE): muda o alcance para curto e o alvo para 1 ser ou objeto Enorme ou menor. Em vez do normal, cria uma esfera imóvel e tremeluzente com o tamanho do alvo e centrada nele. Nenhum ser, objeto ou efeito de dano pode passar pela esfera, embora seres possam respirar normalmente dentro dela. O alvo tem direito a um teste de Reflexos para evitar ser aprisionado. Requer 4º círculo."
         ],
         "simbolo": "Tela de Ruído.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 75,
         "nome": "Teletransporte",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1528,12 +1825,16 @@
             "Verdadeiro (+5 PE): pode se teletransportar para qualquer local na Terra."
         ],
         "simbolo": "Teletransporte.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 76,
         "nome": "Tentáculos de Lodo",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1548,12 +1849,16 @@
             "Verdadeiro (+5 PE): aumenta o raio da área para 9m e aumenta o dano dos tentáculos para 6d6."
         ],
         "simbolo": "Tentáculos de Lodo.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 77,
         "nome": "Terceiro Olho",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1569,12 +1874,16 @@
             "Verdadeiro (+5 PE): também pode enxergar objetos e seres invisíveis, que aparecem como formas translúcidas."
         ],
         "simbolo": "Terceiro Olho.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 78,
         "nome": "Transfigurar Água",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1589,12 +1898,16 @@
             "Verdadeiro (+5 PE): aumenta o deslocamento de enchente para +12m e o dano de evaporar para 10d8."
         ],
         "simbolo": "Transfigurar Água.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 79,
         "nome": "Transfigurar Terra",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1610,12 +1923,16 @@
             "Verdadeiro (+7 PE): também afeta todos os tipos de minerais e metais. Requer 4º círculo."
         ],
         "simbolo": "Transfigurar Terra.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 80,
         "nome": "Transfusão Vital",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1631,12 +1948,16 @@
             "Verdadeiro (+7 PE): Você pode transferir até 100 pontos de vida. Requer 4º círculo."
         ],
         "simbolo": "Transfusão Vital.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 81,
         "nome": "Velocidade Mortal",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1652,12 +1973,16 @@
             "Verdadeiro (+7 PE): muda o alvo para “alvos escolhidos”. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Velocidade Mortal.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 82,
         "nome": "Vidência",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "completa",
@@ -1670,12 +1995,16 @@
         "texto": "Através de uma superfície reflexiva, como um espelho, uma bacia de água ou mesmo uma TV desligada, você pode ver e ouvir um ser escolhido e seus arredores (cerca de 6m em qualquer direção). O alvo pode estar a qualquer distância, mas tem direito a um teste de resistência no início de cada um de seus turnos para impedir a Vidência naquele turno. Se o alvo passar em dois testes seguidos, o ritual é encerrado e o alvo fica imune a ele por uma semana. Para esse ritual funcionar, você precisa ter alguma informação sobre o alvo, como seu nome ou uma foto. Dependendo do conhecimento que você tiver dele, o alvo recebe bônus ou penalidades em seu teste de resistência.\n• Você sabe o mínimo sobre o alvo: +10.\n• Você possui algumas informações sobre o alvo (idade, profissão…) ou já o viu pessoalmente: +5.\n• Você conhece bem o alvo: -0.\n• Você tem um pertence pessoal ou roupa do alvo: -5.\n• Você tem uma parte do corpo do alvo (unhas, cabelos…): -10.",
         "aprimoramentos": [],
         "simbolo": "Vidência.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 83,
         "nome": "Vínculo de Sangue",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1688,12 +2017,16 @@
         "texto": "Você manifesta um símbolo de Sangue no seu corpo e no corpo do alvo. Sempre que você sofrer dano, o alvo deve fazer um teste de Fortitude. Se ele falhar, você sofre apenas metade do dano e ele sofre a metade restante. Você pode conjurar o ritual com efeito inverso, fazendo com que você receba metade de todo o dano que o alvo receberia. Alvos voluntários não precisam fazer testes de resistência.",
         "aprimoramentos": [],
         "simbolo": "Vínculo de Sangue.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 84,
         "nome": "Vomitar Pestes",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1709,12 +2042,16 @@
             "Verdadeiro (+5 PE): o enxame vira Enorme (cubo de 6m de lado) e ganha deslocamento de voo 18m."
         ],
         "simbolo": "Vomitar Pestes.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 85,
         "nome": "Zerar Entropia",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1730,12 +2067,16 @@
             "Verdadeiro (+11 PE): muda o alvo para “seres escolhidos”. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Zerar Entropia.webp",
-        "referencia": "Livro Básico"
+        "referencia": [
+            "Livro Básico"
+        ]
     },
     {
         "id": 86,
         "nome": "Esfolar",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1751,12 +2092,16 @@
             "Verdadeiro (+5 PE): muda o alcance para longo, o dano para 10d4+10 e o alvo para explosão com 6m de raio. Passar no teste de resistência não evita a condição. Requer 3º círculo."
         ],
         "simbolo": "Esfolar.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 87,
         "nome": "Sede de Adrenalina",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "reação",
@@ -1772,12 +2117,16 @@
             "Verdadeiro (+7 PE): muda a redução de dano de impacto para 70. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Sede de Adrenalina.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 88,
         "nome": "Odor da Caçada",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1793,12 +2142,16 @@
             "Verdadeiro (+9 PE): muda o alcance para curto e o alvo para até 5 seres. Requer afinidade."
         ],
         "simbolo": "Odor da Caçada.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 89,
         "nome": "Martírio de Sangue",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1813,12 +2166,16 @@
             "Discente (+5 PE): muda os bônus para +20 e os PV temporários para 50. Requer afinidade."
         ],
         "simbolo": "Martírio de Sangue.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 90,
         "nome": "Apagar as Luzes",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1834,12 +2191,16 @@
             "Verdadeiro (+5 PE): como Discente, e além de você, até cinco outros seres dentro desse alcance recebem visão no escuro. Requer 3º círculo."
         ],
         "simbolo": "Apagar as Luzes.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 91,
         "nome": "Língua Morta",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1855,12 +2216,16 @@
             "Verdadeiro (+7 PE): aumenta o limite para cinco rodadas. Requer 4º círculo e afinidade. Ao final da quinta rodada, ao invés de um enraizado, o cadáver se transforma em uma marionete (OPRPG, p. 218)."
         ],
         "simbolo": "Língua Morta.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 92,
         "nome": "Fedor Pútrido",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1876,12 +2241,16 @@
             "Verdadeiro (+9 PE): muda o alcance para curto e o alvo para até 5 seres voluntários. Requer afinidade."
         ],
         "simbolo": "Fedor Pútrido.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 93,
         "nome": "Singularidade Temporal",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1897,12 +2266,16 @@
             "Verdadeiro (+10 PE): muda o tamanho do objeto afetado para Enorme."
         ],
         "simbolo": "Singularidade Temporal.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 94,
         "nome": "Desfazer Sinapses",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "padrão",
@@ -1918,12 +2291,16 @@
             "Verdadeiro (+5 PE): muda o alcance para extremo, o dano para 8d6+8 e a condição para esmorecido. Se passar no teste de resistência, em vez de esmorecido, fica frustrado. Requer 3º círculo."
         ],
         "simbolo": "Desfazer Sinapses.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 95,
         "nome": "Aurora da Verdade",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -1939,12 +2316,16 @@
             "Verdadeiro (+7 PE): como discente, mas muda o alcance para longo e a duração para cena. Além disso, independentemente da distância, você pode ouvir tudo que é falado na área, como se estivesse nela. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Aurora da Verdade.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 96,
         "nome": "Relembrar Fragmento",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -1960,12 +2341,16 @@
             "Verdadeiro (+9 PE): em vez da descrição original, o ritual pode ser usado para alterar o objeto de forma imperceptível, conforme a vontade do conjurador (transformando uma folha com um texto qualquer em um documento de permissão de porte de armas “legítimo”, por exemplo). Além disso, o objeto permanece alterado até o fim da missão. Requer afinidade."
         ],
         "simbolo": "Relembrar Fragmento.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 97,
         "nome": "Pronunciar Sigilo",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "padrão",
@@ -1981,12 +2366,16 @@
             "Verdadeiro (+10 PE): muda o alvo para até cinco seres. Requer afinidade."
         ],
         "simbolo": "Pronunciar Sigilo.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 98,
         "nome": "Overclock",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 1,
         "custo": 1,
         "execucao": "reação",
@@ -2002,12 +2391,16 @@
             "Verdadeiro (+5 PE): você só falha no teste se errar três vezes no jogo de estátua. Requer 3º círculo."
         ],
         "simbolo": "Overclock.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 99,
         "nome": "Tremeluzir",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -2023,12 +2416,16 @@
             "Verdadeiro (+7 PE): muda o alcance para curto e o alvo para até 5 seres voluntários. Requer 4º círculo."
         ],
         "simbolo": "Tremeluzir.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 100,
         "nome": "Mutar",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "padrão",
@@ -2044,12 +2441,16 @@
             "Verdadeiro (+9 PE): muda o alcance para curto e o alvo para até 5 seres. Requer afinidade com Energia."
         ],
         "simbolo": "Mutar.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 101,
         "nome": "Milagre Ionizante",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 3,
         "custo": 6,
         "execucao": "completa",
@@ -2062,12 +2463,17 @@
         "texto": "Muitos assumem que a radiação só existe para trazer destruição, sem fazer ideia de que grande parte dos tratamentos de saúde atuais dependem dessa assustadora forma de energia. A mesma alteração molecular que pode ser usada para desfragmentar a matéria também pode ser usada para devolvê-la ao seu estado natural.\nComo um ocultista experiente, você usa de todo seu esforço para que o caos embaralhe a Realidade com o intuito de destruir apenas uma estrutura maligna habitando um corpo. Você pode curar o ser de uma condição entre abalado, apavorado, alquebrado, atordoado, cego, confuso, debilitado, enjoado, envenenado, esmorecido, exausto, fascinado, fatigado, fraco, frustrado, lento, ofuscado, paralisado, pasmo ou surdo, ou uma doença ou um veneno, a sua escolha. Este ritual afeta efeitos paranormais, exceto aqueles causados pela entidade de Energia e condições permanentes.\nPor mais caridosa que seja sua ação, a Energia do Outro Lado nunca vai deixar de pregar peças, e o caos é inevitável. Após curar o ser, este deve fazer um teste de Fortitude (DT 30). Se falhar, é incubado pelo vírus do infectcídio (OPRPG, p. 292).",
         "aprimoramentos": [],
         "simbolo": "Milagre Ionizante.webp",
-        "referencia": "Sobrevivendo ao Horror"
+        "referencia": [
+            "Sobrevivendo ao Horror"
+        ]
     },
     {
         "id": 102,
         "nome": "Passagem de Conhecimento",
-        "elemento": ["Sangue", "Conhecimento"],
+        "elemento": [
+            "Sangue",
+            "Conhecimento"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "completa",
@@ -2079,16 +2485,22 @@
         "resistencia": "Vontade evita",
         "texto": "Você transfere sua consciência para o corpo do alvo.<br>Quando conjura este ritual, você deve escolher entre habitar o corpo do alvo e tentar sobrepor a mente dele ou fazer uma transferência completa, em que as consciências são trocadas e o alvo passa a habitar o seu corpo.<br>No primeiro caso, se o alvo falhar no teste de resistência, você passa a controlar o corpo dele (o seu próprio corpo cai inconsciente). Você continua usando sua ficha, mas substitui seus atributos físicos (Força, Agilidade e Vigor) pelos do alvo. De acordo com o mestre, você pode usar outras características inatas do corpo do alvo. No início de cada turno do alvo, ele pode repetir o teste de resistência para tentar recuperar o controle de seu corpo. Além disso, a critério do mestre (conforme a história e a sua relação com a pessoa), o alvo pode tentar recuperar o controle mais de uma vez por rodada. Se ele passar, você retorna para seu próprio corpo, que desperta na hora. Se o corpo do alvo morrer enquanto você o está ocupando, você também morre. Se o seu corpo morrer, você fica permanentemente preso no corpo do alvo e, se o alvo conseguir recuperar o controle do corpo, você morre.<br>No segundo caso, se o alvo falhar no teste de resistência, você passa a controlar o corpo dele e ele o seu. Ambos continuam usando suas fichas, mas substituem seus atributos físicos (Força, Agilidade e Vigor) pelos do outro. De acordo com o mestre, ambos podem usar outras características inatas do outro corpo. Nesse caso, o alvo não pode tentar se libertar novamente. A única maneira de reaver seu corpo é com o fim da duração do ritual ou conjurando este ritual contra aquele que tomou seu corpo de você. Se um dos corpos morrer, quem está ocupando ele também morre e é impossível retornar para um corpo morto.",
         "aprimoramentos": [
-          "Discente (+3 PE): O alcance muda para curto e a duração para 1 dia. No primeiro caso, o alvo só pode tentar recuperar o controle do corpo uma vez por dia ou uma vez por cena (o que for maior), em vez de uma vez por rodada.",
-          "Verdadeiro (+7 PE): O alcance muda para médio e a duração para permanente. No primeiro caso, o alvo só pode tentar recuperar o controle do corpo uma vez por ano, em vez de uma vez por rodada. Requer 4º círculo e afinidade."
+            "Discente (+3 PE): O alcance muda para curto e a duração para 1 dia. No primeiro caso, o alvo só pode tentar recuperar o controle do corpo uma vez por dia ou uma vez por cena (o que for maior), em vez de uma vez por rodada.",
+            "Verdadeiro (+7 PE): O alcance muda para médio e a duração para permanente. No primeiro caso, o alvo só pode tentar recuperar o controle do corpo uma vez por ano, em vez de uma vez por rodada. Requer 4º círculo e afinidade."
         ],
         "simbolo": "Passagem de Conhecimento.webp",
-        "referencia": "Arquivos Secretos"
+        "referencia": [
+            "Arquivos Secretos",
+            "Arquivos Secretos - Janeiro"
+        ]
     },
     {
         "id": 103,
         "nome": "Passagem de Conhecimento Expandido",
-        "elemento": ["Sangue", "Conhecimento"],
+        "elemento": [
+            "Sangue",
+            "Conhecimento"
+        ],
         "circulo": 4,
         "custo": 10,
         "execucao": "1 dia",
@@ -2101,12 +2513,17 @@
         "texto": "Criado por Agatha Volkomenn, este ritual é uma versão avançada de Passagem de Conhecimento, capaz de afetar várias pessoas ao mesmo tempo. Ele só pode ser aprendido por personagens capazes de conjurar Passagem de Conhecimento.<br>Este ritual afeta de duas a dez pessoas, sempre em número par. Os alvos devem ser separados em dois grupos, sendo um deles o grupo principal. Cada alvo do grupo principal se sente submerso em um oceano infinito e, banhado pelo fluxo do Outro Lado, deve escolher um alvo do outro grupo. Entretanto, essa escolha nunca é simples, premeditada ou aleatória. As consciências deverão navegar através de suas intenções até alcançar o corpo adequado (veja o quadro Os Passos da Passagem, na p. 51). Quando a escolha enfim é feita, as consciências trocam de corpos. Ao contrário da versão normal deste ritual, os personagens assumem os atributos e habilidades do corpo novo.<br>Como parte da conjuração deste ritual, os corpos de um dos grupos podem ficar presos em caixões, num estado transitório, enquanto os corpos do outro grupo ficam livres no mundo. Os caixões não podem ser abertos antes de 1d6+1 dias, e só podem ser abertos por quem participou do ritual. Se um caixão for aberto enquanto o corpo estiver nesse estado transitório, o corpo se transforma em um anulado (veja a p. 52).<br>O cérebro humano não consegue suportar a transferência completa, por isso bloqueia as memórias da consciência original, que retornam lentamente. Além disso, quando um personagem fica emocionalmente instável, pode perder o controle para as intenções do corpo invadido por alguns momentos. Em termos de regras, sempre que o personagem ficar enlouquecendo, insano ou perturbado, deve rolar 1d4; em um resultado 1, perde o controle para as intenções do corpo invadido por 1d4 rodadas.<br>A única maneira de se voltar ao corpo original é refazer este ritual presencialmente. Se sua consciência morrer enquanto está no corpo trocado, estará permanentemente morta, assim como se estivesse em seu próprio corpo.",
         "aprimoramentos": [],
         "simbolo": "Passagem de Conhecimento Expandido.webp",
-        "referencia": "Arquivos Secretos"
+        "referencia": [
+            "Arquivos Secretos",
+            "Arquivos Secretos - Janeiro"
+        ]
     },
     {
         "id": 104,
         "nome": "Mapa Sanguíneo",
-        "elemento": ["Sangue"],
+        "elemento": [
+            "Sangue"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -2118,15 +2535,20 @@
         "resistencia": "Vontade evita",
         "texto": "Você toca em uma superfície e desenha um mapa com gotas de sangue que sinalizam em tempo real a localização de todos os seres em um raio de 1 km a partir da superfície tocada. Os seres podem fazer um teste de resistência para evitar este efeito.",
         "aprimoramentos": [
-          "Discente (+3 PE): o ritual também revela a condição de saúde dos seres que falharem no teste de resistência, conforme seus PV: ileso (PV em 100%); ferido (PV entre 99% e 51%); machucado (PV entre 50% e 1%); morrendo (PV em 0% e/ou condição morrendo)."
+            "Discente (+3 PE): o ritual também revela a condição de saúde dos seres que falharem no teste de resistência, conforme seus PV: ileso (PV em 100%); ferido (PV entre 99% e 51%); machucado (PV entre 50% e 1%); morrendo (PV em 0% e/ou condição morrendo)."
         ],
         "simbolo": "Mapa Sanguíneo.webp",
-        "referencia": "Arquivos Secretos"
+        "referencia": [
+            "Arquivos Secretos",
+            "Arquivos Secretos - Fevereiro"
+        ]
     },
     {
         "id": 105,
         "nome": "Capturar Momento",
-        "elemento": ["Morte"],
+        "elemento": [
+            "Morte"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -2138,16 +2560,21 @@
         "resistencia": "Vontade evita",
         "texto": "Você marca um local dentro do alcance com um símbolo de Morte invisível (é necessário um de Intuição ou Ocultismo contra a DT do ritual para perceber). O símbolo capta imagens e sons em um raio de 18m a partir dele. Você pode gastar uma ação padrão para ver e ouvir qualquer coisa captada pelo símbolo, mesmo estando distante dele.<br>Você pode ter no máximo três símbolos; se criar um quarto, um dos anteriores é dissipado. Você também pode dissipar o símbolo quando quiser como uma ação livre.",
         "aprimoramentos": [
-          "Discente (+3 PE): acrescenta ao efeito a opção de gastar uma ação padrão para fazer o símbolo explodir em energias entrópicas, que causam 4d8 pontos de dano de Morte em todos os seres captados por ele no momento da explosão (um teste de resistência de Fortitude contra a DT do ritual reduz o dano à metade).",
-          "Verdadeiro (+7 PE): como discente, mas muda o dano para 8d8 pontos de dano de Morte. Requer 3º Círculo."
+            "Discente (+3 PE): acrescenta ao efeito a opção de gastar uma ação padrão para fazer o símbolo explodir em energias entrópicas, que causam 4d8 pontos de dano de Morte em todos os seres captados por ele no momento da explosão (um teste de resistência de Fortitude contra a DT do ritual reduz o dano à metade).",
+            "Verdadeiro (+7 PE): como discente, mas muda o dano para 8d8 pontos de dano de Morte. Requer 3º Círculo."
         ],
         "simbolo": "Capturar Momento.webp",
-        "referencia": "Arquivos Secretos"
+        "referencia": [
+            "Arquivos Secretos",
+            "Arquivos Secretos - Fevereiro"
+        ]
     },
     {
         "id": 106,
         "nome": "Labirinto Mental",
-        "elemento": ["Conhecimento"],
+        "elemento": [
+            "Conhecimento"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -2159,16 +2586,21 @@
         "resistencia": "Vontade evita",
         "texto": "Você prende a mente de uma pessoa em um labirinto. Pela duração do ritual, o alvo é obrigado a gastar suas ações para se mover em uma direção aleató- ria. No início de cada um de seus turnos, o alvo pode repetir o teste de resistência. Se passar, se liberta do ritual.",
         "aprimoramentos": [
-          "Discente (+3 PE): muda o alcance para longo.",
-          "Verdadeiro (+7 PE): muda o alcance para longo e a duração para cena, mas o alvo ainda pode tentar se libertar no início de seus turnos. Requer 3º Círculo."
+            "Discente (+3 PE): muda o alcance para longo.",
+            "Verdadeiro (+7 PE): muda o alcance para longo e a duração para cena, mas o alvo ainda pode tentar se libertar no início de seus turnos. Requer 3º Círculo."
         ],
         "simbolo": "Labirinto Mental.webp",
-        "referencia": "Arquivos Secretos"
+        "referencia": [
+            "Arquivos Secretos",
+            "Arquivos Secretos - Fevereiro"
+        ]
     },
     {
         "id": 107,
         "nome": "Rajada Caótica",
-        "elemento": ["Energia"],
+        "elemento": [
+            "Energia"
+        ],
         "circulo": 2,
         "custo": 3,
         "execucao": "padrão",
@@ -2180,10 +2612,91 @@
         "resistencia": "Reflexos reduz à metade",
         "texto": "Você concentra a estática caótica da Energia e a projeta contra o alvo, disparando um raio que causa 8d6 pontos de dano de Energia.",
         "aprimoramentos": [
-          "Discente (+3 PE): o dano muda para 8d8 pontos de dano de Energia.",
-          "Verdadeiro (+7 PE): a duração muda para cena e o efeito muda para a descrição a seguir: “Você canaliza relâmpagos. Em seguida, dispara um raio que causa 8d10 pontos de dano de Energia em um ser em dentro do alcance. Nos seus próximos turnos, até o fim da cena, você pode gastar uma ação padrão para disparar outro raio com o mesmo efeito”. Requer 3º Círculo."
+            "Discente (+3 PE): o dano muda para 8d8 pontos de dano de Energia.",
+            "Verdadeiro (+7 PE): a duração muda para cena e o efeito muda para a descrição a seguir: “Você canaliza relâmpagos. Em seguida, dispara um raio que causa 8d10 pontos de dano de Energia em um ser em dentro do alcance. Nos seus próximos turnos, até o fim da cena, você pode gastar uma ação padrão para disparar outro raio com o mesmo efeito”. Requer 3º Círculo."
         ],
         "simbolo": "Rajada Caótica.webp",
-        "referencia": "Arquivos Secretos"
+        "referencia": [
+            "Arquivos Secretos",
+            "Arquivos Secretos - Fevereiro"
+        ]
+    },
+    {
+        "id": 108,
+        "nome": "Backup",
+        "elemento": [
+            "Energia"
+        ],
+        "circulo": 2,
+        "custo": 3,
+        "execucao": "completa",
+        "alcance": "curto",
+        "alvo": "veja texto",
+        "area": null,
+        "efeito": null,
+        "duracao": "1 dia",
+        "resistencia": null,
+        "texto": "Ao conjurar esse ritual, você cria um chamariz com a sua aparência em um espaço vazio dentro do alcance. A cópia de Energia realiza movimentos simples em repetição e pode pronunciar uma única frase à sua escolha. Essa cópia tem uma conexão estabelecida com você com um raio de 5km. Enquanto se mantiver dentro da área de conexão do ritual, a qualquer momento, você pode gastar uma reação para trocar de lugar com o chamariz, perdendo 2d4 SAN ao fazer isso. O ritual se dissipa se qualquer dano for causado a cópia ou se você deixar a área de conexão do ritual.",
+        "aprimoramentos": [
+            "Discente (+3 PE): muda a duração para permanente. Gastando uma ação padrão, você pode cobrir seus olhos e ouvidos para alternar seus sentidos entre o seu corpo original e a cópia. Você passa a ver e ouvir através dos olhos e ouvidos da cópia até descobrir seus olhos ou ouvidos. Enquanto faz isso, você fica cego, surdo e pasmo. Requer 3º círculo.",
+            "Verdadeiro (+7 PE): Como na versão discente, mas quando cobre olhos e ouvidos, você também pode falar através da cópia e escolher a aparência dela com base em alguém que já tenha visto e saiba descrever. Além disso, quando você optar por trocar de lugar com a cópia, pode escolher dissipar o ritual, causando 6d6 pontos de dano de Energia (Reflexos reduz o dano à metade) em todos os seres em alcance curto de onde seu corpo saiu e de onde ele aparece. Requer 4º círculo e afinidade"
+        ],
+        "simbolo": "Rajada Caótica.webp",
+        "referencia": [
+            "Arquivos Secretos",
+            "Arquivos Secretos - Fevereiro"
+        ]
+    },
+    {
+        "id": 109,
+        "nome": "Hesitação Forçada",
+        "elemento": [
+            "Conhecimento"
+        ],
+        "circulo": 1,
+        "custo": 1,
+        "execucao": "padrão",
+        "alcance": "curto",
+        "alvo": "1 pessoa",
+        "area": null,
+        "efeito": null,
+        "duracao": "sustentada",
+        "resistencia": "Vontade parcial",
+        "texto": "Em conexão com o Conhecimento, você invade a mente da pessoa com fragmentos de dúvidas e inseguranças que já existiam em seu subconsciente. Todas elas são expandidas ao extremo sob uma influência menor do Sangue, fazendo com que cada decisão pareça ser a errada. Enquanto o ritual estiver ativo, o alvo deve fazer um teste de Vontade no início de cada um de seus turnos. Se falhar, ele deverá rolar novamente o maior dado de qualquer teste feito até o fim de seu turno. Se o alvo passar no teste de resistência duas vezes seguidas, o efeito termina.",
+        "aprimoramentos": [
+            "Discente (+2 PE): muda o alvo para “1 ser”. Além do normal, um alvo que não tenha resistido ao ritual não pode realizar ações hostis contra o conjurador. Quando usado em criaturas, o ritual não desperta inseguranças (elas não possuem nada disso). Mas seus movimentos são reescritos através do Conhecimento, resultando em efeitos similares. Requer 2º círculo.",
+            "Verdadeiro (+5 PE): muda a resistência para “Vontade anula”. O efeito muda: em vez de alimentar dúvidas, o ritual fortalece as convicções, qualidades e certezas do alvo até extremos absurdos. Ele se torna extremamente confiante em suas próprias capacidades, convencido de que pode superar qualquer obstáculo ou proteger aqueles ao seu redor. Enquanto o ritual estiver ativo, o alvo rola novamente o menor dado de qualquer teste realizado, mantendo o novo resultado. Além disso, sempre que um aliado adjacente do alvo sofrer um ataque, aquele sobre o efeito do ritual deve gastar uma reação para se colocar no caminho do golpe, tornando--se o novo alvo do ataque (e acreditando ser invencível). Um alvo involuntário afetado ainda pode resistir ao ritual com um teste de Vontade no início de seus turnos. Requer 3º círculo e afinidade."
+        ],
+        "simbolo": "Rajada Caótica.webp",
+        "referencia": [
+            "Arquivos Secretos",
+            "Arquivos Secretos - Junho"
+        ]
+    },
+    {
+        "id": 110,
+        "nome": "Vampirismo",
+        "elemento": [
+            "Sangue"
+        ],
+        "circulo": 2,
+        "custo": 3,
+        "execucao": "completa",
+        "alcance": "toque",
+        "alvo": "1 pessoa",
+        "area": null,
+        "efeito": null,
+        "duracao": "1 dia",
+        "resistencia": null,
+        "texto": "Você absorve fragmentos de memórias inconscientes e instintivas de um ser. Quando conjura esse ritual, todos que bebem o sangue do alvo devem se entregar ao máximo de sensações experienciados por ele, consumindo toda sua carne e essência. Banhando-se no fluxo do Outro Lado, captando pequenos coágulos de algo que existe no limiar das intenções. Sentimentos, nomes, fragmentos da essência de um ser, tão instintivos que se impregnaram no sangue e na carne que agora servem de banquete.Em termos de regras, este ritual transforma o corpo de uma pessoa viva ou morta em uma refeição paranormal até o fim da duração. Com o fim dela, o mesmo corpo não pode ser alvo desse ritual novamente. Qualquer pessoa que gaste 1 minuto comendo parte desse corpo recebe os efeitos dos vasos sanguíneos que escolheu consumir. Os mesmos vasos sanguíneos não podem ser consumidos mais de uma vez. Os efeitos duram por 1 dia, exceto efeitos instantâneos como recuperar PV. \r\rEscolha quais vasos sanguíneos deseja consumir a seguir: \r\rVasos da Visão: você visualiza flashes confusos da pessoa lutando pela própria vida. Você recebe +2 em testes de ataque. \r\rVasos da Audição: você entende um pouco da linguagem utilizada pela pessoa. Se a pessoa conjurava rituais de 1º círculo, você pode escolher um para ser capaz de conjurar normalmente. \r\rVasos do Paladar: você consegue sentir a vitalidade fluindo. Você recupera 3d8+3 PV. \r\rVasos do Olfato: você consegue discernir com mais facilidade os rastros de um único ser ligado a pessoa. Você recebe +5 em testes para rastrear o ser. \r\rVasos do Tato: você sente que pode reproduzir as capacidades da pessoa. Se a pessoa tem treinamento em perícias, você pode escolher uma para ser treinado. Se já for treinado na perícia escolhida, em vez disso, recebe +2 nela.",
+        "aprimoramentos": [
+            "Discente (+7 PE): escolha quais vasos sanguíneos deseja consumir a seguir. Requer 3º círculo. \r\rVasos da Visão: você visualiza flashes confusos da pessoa lutando pela própria vida. Você recebe +5 em testes de ataque. \r\rVasos da Audição: você entende um pouco da linguagem utilizada pela pessoa. Se a pessoa conjurava rituais de 2º círculo, você pode escolher um para ser capaz de conjurar normalmente. \r\rVasos do Paladar: você consegue sentir a vitalidade fluindo. Você recupera 6d8+6 PV. \r\rVasos do Olfato: você consegue discernir com mais facilidade os rastros de um único ser ligado a pessoa. Você recebe +10 em testes para rastrear o ser. \r\rVasos do Tato: você sente que pode reproduzir as capacidades da pessoa. Se a pessoa é veterana em perícias, você pode escolher uma para ser veterano. Se já for veterano na perícia escolhida, em vez disso, recebe +4 nela.",
+            "Verdadeiro (+12 PE): escolha quais vasos sanguíneos deseja consumir a seguir. Requer 4º círculo e afinidade. \r\rVasos da Visão: você visualiza f lashes confusos da pessoa lutando pela própria vida. Você recebe +10 em testes de ataque. \r\rVasos da Audição: você entende um pouco da linguagem utilizada pela pessoa. Se a pessoa conjurava rituais de 2º círculo, você pode escolher um para ser capaz de conjurar normalmente. \r\rVasos da Audição: você entende um pouco da linguagem utilizada pela pessoa. Se a pessoa conjurava rituais de 3º círculo, você pode escolher um para ser capaz de conjurar normalmente. \r\rVasos do Paladar: você consegue sentir a vitalidade f luindo. Você recupera 9d8+9 PV. \r\rVasos do Olfato: você consegue discernir com mais facilidade os rastros de um único ser ligado a pessoa. Você recebe +15 em testes para rastrear o ser. \r\rVasos do Tato: você sente que pode reproduzir as capacidades da pessoa. Se a pessoa é expert em perícias, você pode escolher uma para ser expert. Se já for expert na perícia escolhida, em vez disso, recebe +6 nela."
+        ],
+        "simbolo": "Rajada Caótica.webp",
+        "referencia": [
+            "Arquivos Secretos",
+            "Arquivos Secretos - Julho"
+        ]
     }
 ]

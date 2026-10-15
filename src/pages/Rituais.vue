@@ -23,6 +23,7 @@ const { mdAndUp } = useDisplay();
       <v-container class="d-flex flex-wrap pt-1 pb-1">
         <v-select v-model="filtros.filtroPesquisa.referencia" :items="filtros.filtroOpcoes.Referência" multiple
           clearable chips label="Referência" density="comfortable" variant="solo" hide-details bg-color="#7B08D9"
+          item-value="value" item-title="name"
           class="mx-1 custom-placeholer" @update:model-value="filtros.filterRituais" />
       </v-container>
       <v-container class="d-flex flex-wrap pt-1 pb-1">
