@@ -2,6 +2,7 @@
 import { ref, watch, computed, onMounted, onUnmounted } from 'vue';
 import { useFiltroPoderesStore } from '../stores/filtroPoderes';
 import { diceIconText, elementoCor } from '../plugins/global.js';
+import { referenciaFormatter } from '../utils/referenciaFormatter.js';
 
 const filtroPoderes = useFiltroPoderesStore();
 const dialog = ref(false);
@@ -132,7 +133,7 @@ onUnmounted(() => {
                         {{ filtroPoderes.convertTag(tag) }}
                     </span>
                 </v-card-subtitle>
-                <span class="text-tormentaText font-tormenta-xs"><strong>Referência:</strong> </span> {{ currentPoder.referencia }};&nbsp
+                <span class="text-tormentaText font-tormenta-xs"><strong>Referência:</strong> </span> {{ referenciaFormatter(currentPoder.referencia) }};&nbsp
             </div>
             <v-divider class="my-3"></v-divider>
             <v-card-text class="pt-2">

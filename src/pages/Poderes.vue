@@ -3,9 +3,14 @@ import { ref, computed, watch } from 'vue';
 import { useDisplay } from 'vuetify';
 import { useFiltroPoderesStore } from '../stores/filtroPoderes';
 import DialogPoder from '../components/DialogPoder.vue';
+import { referenciaFormatter } from '../utils/referenciaFormatter.js';
 const { mdAndUp } = useDisplay();
 
 const filtroPoderes = useFiltroPoderesStore();
+
+const temCombinacaoTags = computed(
+    () => filtroPoderes.filtroPesquisa.tags.length > 1
+);
 
 const ITEMS_OPTIONS = [50, 'Tudo'];
 const isShowingAll = computed(() => maxItemsPerPage.value === 'Tudo');
@@ -80,22 +85,51 @@ const modelPaginationComputed = computed({
                 />
             </v-responsive>
             <v-responsive class="mx-0 pa-1">
-                <v-autocomplete
-                    v-model="filtroPoderes.filtroPesquisa.tags"
-                    :items="filtroPoderes.filtroOpcoes.Tags"
-                    multiple
-                    clearable
-                    chips
-                    closable-chips
-                    label="Tags"
-                    variant="solo"
-                    hide-details
-                    item-value="value"
-                    item-title="name"
-                    bg-color="ordemText"
-                    class="mx-4 custom-placeholer"
-                    @update:model-value="filtroPoderes.filterPoderes"
-                />
+                <v-row no-gutters class="mx-3">
+                    <v-col
+                        cols="12"
+                        :style="
+                            mdAndUp && temCombinacaoTags
+                                ? 'flex: 0 0 65%; max-width: 100%'
+                                : ''
+                        "
+                    >
+                        <v-autocomplete
+                            v-model="filtroPoderes.filtroPesquisa.tags"
+                            :items="filtroPoderes.filtroOpcoes.Tags"
+                            multiple
+                            clearable
+                            chips
+                            closable-chips
+                            label="Tags"
+                            variant="solo"
+                            hide-details
+                            item-value="value"
+                            item-title="name"
+                            bg-color="ordemText"
+                            class="ma-1 custom-placeholer"
+                            @update:model-value="filtroPoderes.filterPoderes"
+                        />
+                    </v-col>
+                    <v-col
+                        v-if="temCombinacaoTags"
+                        cols="12"
+                        :style="
+                            mdAndUp ? 'flex: 0 0 35%; max-width: 100%' : ''
+                        "
+                    >
+                        <v-select
+                            v-model="filtroPoderes.filtroPesquisa.tagsOperador"
+                            :items="filtroPoderes.tagsCombinacaoOpcoes"
+                            label="Combinação de Tags"
+                            variant="solo"
+                            hide-details
+                            bg-color="ordemText"
+                            class="ma-1 custom-placeholer"
+                            @update:model-value="filtroPoderes.filterPoderes"
+                        />
+                    </v-col>
+                </v-row>
             </v-responsive>
             <v-responsive class="mx-0 pa-1">
                 <v-select
@@ -108,6 +142,8 @@ const modelPaginationComputed = computed({
                     label="Referência"
                     variant="solo"
                     hide-details
+                    item-value="value"
+                    item-title="name"
                     bg-color="ordemText"
                     class="mx-4 custom-placeholer"
                     @update:model-value="filtroPoderes.filterPoderes"
@@ -162,7 +198,7 @@ const modelPaginationComputed = computed({
                                 {{ filtroPoderes.convertTag(tag) }}
                             </span>
                         </v-card-subtitle>
-                        <span class="mb-1"><strong>Referência: </strong>{{ poder.referencia }};&nbsp</span>
+                        <span class="mb-1"><strong>Referência: </strong>{{ referenciaFormatter(poder.referencia) }};&nbsp</span>
 
                         <DialogPoder :poderIndex="index + (isShowingAll ? 0 : (modelPaginationComputed - 1) * maxItemsPerPage)" />
                     </v-card>

@@ -1,11 +1,13 @@
 import { defineStore } from 'pinia';
-import { reactive, ref } from 'vue';
+import { computed, reactive, ref } from 'vue';
 import rawJson from '../data/poderes.json';
+import { montarOpcoesReferencia } from '../utils/referenciaArquivosSecretos';
 
 const base = {
     nome: '',
     texto: '',
     tags: [],
+    tagsOperador: 'or',
     referencia: [],
 };
 
@@ -24,6 +26,7 @@ const PREDEFINED_TAGS = [
     { name: "Energia", value: "energia" },
     { name: "Medo", value: "medo" },
     { name: "Intenção", value: "intencao" },
+    { name: "Transmissão", value: "transmissao" },
     { name: "Aniquilador", value: "aniquilador" },
     { name: "Comandante de Campo", value: "comandante_campo" },
     { name: "Guerreiro", value: "guerreiro" },
@@ -49,7 +52,14 @@ const PREDEFINED_TAGS = [
     { name: "Possuído", value: "possuido" },
     { name: "Parapsicólogo", value: "parapsicologo" },
     { name: "Maledictólogo", value: "maledictologo" },
+    { name: "Granadeiro Blaster", value: "granadeiro_blaster" },
+    { name: "Criptologista do Oculto", value: "criptologista_oculto" },
+    { name: "Incursor", value: "incursor" },
+    { name: "Piloto de Drone", value: "piloto_drone" },
 ];
+
+const LIVROS = ['Livro Básico', 'Sobrevivendo ao Horror', 'Arquivos Secretos'];
+
 const filtroPesquisa = reactive({ ...base });
 const jsonPoderes = ref([]);
 const filteredJson = ref([]);
@@ -60,14 +70,14 @@ filteredJson.value = rawJson;
 export const useFiltroPoderesStore = defineStore('filtroPoderes', () => {
     function resetFiltro() {
         Object.keys(base).forEach((key) => {
-            filtroPesquisa[key] = base[key];
+            filtroPesquisa[key] = Array.isArray(base[key]) ? [...base[key]] : base[key];
         });
         filterPoderes();
     }
 
     const filtroOpcoes = reactive({
         Tags: PREDEFINED_TAGS,
-        Referência: ['Livro Básico', 'Sobrevivendo ao Horror', 'Arquivos Secretos']
+        Referência: montarOpcoesReferencia(rawJson, LIVROS)
     });
 
     function stringSearch(input, filter) {
@@ -87,30 +97,41 @@ export const useFiltroPoderesStore = defineStore('filtroPoderes', () => {
     }
     function filterPoderes() {
         filteredJson.value = jsonPoderes.value.filter((poder) => {
-          return (
-            stringSearch(poder.nome, filtroPesquisa.nome) &&
-            new RegExp(normalizeString(filtroPesquisa.texto), 'i').test(normalizeString(poder.texto)) &&
-            applyFilterArray(filtroPesquisa.tags, poder.tags) &&
-            applyFilter(filtroPesquisa.referencia, poder.referencia)
-          );
+            return (
+                stringSearch(poder.nome, filtroPesquisa.nome) &&
+                new RegExp(normalizeString(filtroPesquisa.texto), 'i').test(normalizeString(poder.texto)) &&
+                applyFilterArray(filtroPesquisa.tags, poder.tags, filtroPesquisa.tagsOperador) &&
+                applyFilterArray(filtroPesquisa.referencia, poder.referencia)
+            );
         });
     };
-
-    function applyFilter(filterValues, poderProperty) {
-        if (filterValues.length === 0) return true;
-        return filterValues.some((x) => normalizeString(poderProperty).includes(normalizeString(x)))
-    }
-    function applyFilterArray(filterValues, poderProperty) {
+    function applyFilterArray(filterValues, poderProperty, operador = 'or') {
         if (filterValues.length === 0) return true;
 
         if (!Array.isArray(poderProperty)) return false;
 
-        return filterValues.some((x) => poderProperty.includes(x));
+        return operador === 'and'
+            ? filterValues.every((x) => poderProperty.includes(x))
+            : filterValues.some((x) => poderProperty.includes(x));
     }
     function convertTag(tag) {
         const predefinedTag = PREDEFINED_TAGS.find(t => t.value === tag);
         return predefinedTag ? predefinedTag.name : tag;
     }
+
+    const tagsCombinacaoOpcoes = computed(() => {
+        const nomes = filtroPesquisa.tags.map(convertTag);
+
+        const montarLabel = (conector) =>
+            nomes.length > 3
+                ? `${nomes.slice(0, 2).join(` ${conector} `)} ${conector}...`
+                : nomes.join(` ${conector} `);
+
+        return [
+            { title: montarLabel('E'), value: 'and' },
+            { title: montarLabel('OU'), value: 'or' },
+        ];
+    });
 
     return {
         loading,
@@ -121,6 +142,7 @@ export const useFiltroPoderesStore = defineStore('filtroPoderes', () => {
         normalizeString,
         filtroPesquisa,
         filtroOpcoes,
-        convertTag
+        convertTag,
+        tagsCombinacaoOpcoes
     };
 })
