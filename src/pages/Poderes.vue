@@ -142,6 +142,8 @@ const modelPaginationComputed = computed({
                     label="Referência"
                     variant="solo"
                     hide-details
+                    item-value="value"
+                    item-title="name"
                     bg-color="ordemText"
                     class="mx-4 custom-placeholer"
                     @update:model-value="filtroPoderes.filterPoderes"
