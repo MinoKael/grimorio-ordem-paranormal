@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia';
 import { computed, reactive, ref } from 'vue';
 import rawJson from '../data/poderes.json';
+import { montarOpcoesReferencia } from '../utils/referenciaArquivosSecretos';
 
 const base = {
     nome: '',
@@ -58,45 +59,6 @@ const PREDEFINED_TAGS = [
 ];
 
 const LIVROS = ['Livro Básico', 'Sobrevivendo ao Horror', 'Arquivos Secretos'];
-const PREFIXO_ASSINATURA = 'Arquivos Secretos - ';
-const MESES = [
-    'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
-    'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro',
-];
-
-/**
- * Monta as opções de referência: os livros e, para cada edição da assinatura
- * Arquivos Secretos presente no json, uma opção "Mês (Tema)" cujo valor é a
- * referência do mês (todo poder da edição carrega mês e tema).
- */
-function montarOpcoesReferencia(poderes) {
-    const temaPorMes = new Map();
-
-    poderes.forEach((poder) => {
-        if (!Array.isArray(poder.referencia)) return;
-
-        const edicao = poder.referencia
-            .filter((ref) => ref.startsWith(PREFIXO_ASSINATURA))
-            .map((ref) => ref.slice(PREFIXO_ASSINATURA.length));
-
-        const mes = edicao.find((item) => MESES.includes(item));
-        if (!mes || temaPorMes.has(mes)) return;
-
-        temaPorMes.set(mes, edicao.find((item) => item !== mes));
-    });
-
-    const edicoes = [...temaPorMes.entries()]
-        .sort(([a], [b]) => MESES.indexOf(a) - MESES.indexOf(b))
-        .map(([mes, tema]) => ({
-            name: tema ? `${mes} (${tema})` : mes,
-            value: PREFIXO_ASSINATURA + mes,
-        }));
-
-    return [
-        ...LIVROS.map((livro) => ({ name: livro, value: livro })),
-        ...edicoes,
-    ];
-}
 
 const filtroPesquisa = reactive({ ...base });
 const jsonPoderes = ref([]);
@@ -115,7 +77,7 @@ export const useFiltroPoderesStore = defineStore('filtroPoderes', () => {
 
     const filtroOpcoes = reactive({
         Tags: PREDEFINED_TAGS,
-        Referência: montarOpcoesReferencia(rawJson)
+        Referência: montarOpcoesReferencia(rawJson, LIVROS)
     });
 
     function stringSearch(input, filter) {
